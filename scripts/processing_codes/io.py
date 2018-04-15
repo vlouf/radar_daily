@@ -16,8 +16,8 @@ def get_key_metadata():
                                                      'units': 'dB'}
 
     cfkeys['reflectivity'] = {'standard_name': 'equivalent_reflectivity_factor',
-                                        'short_name': 'DBZ',
-                                        'units': 'dBZ'}
+                              'short_name': 'DBZ',
+                              'units': 'dBZ'}
 
     cfkeys['region_dealias_velocity'] = {'standard_name': 'radial_velocity_of_scatterers_away_from_instrument',
                                          'short_name': 'VEL',
@@ -107,7 +107,7 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
         moment_name = cfkeys[mykey_name]['standard_name']
     except KeyError:
         moment_name = mykey_name
-        
+
     dtime = netCDF4.num2date(time['data'], time['units'])
     # Prepare CF compliant metadata
     minlon = longitude.min()
@@ -208,7 +208,10 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
         ncquality.units = ""
         ncquality.setncattr('standard_name', 'quality_check_measurement_exist')
         ncquality.setncattr('description', '0: no measurement available at time step, 1: data exist.')
-        ncquality.setncattr('comment', 'In case of a slice, at a given timestep, full of FillValue, this variable will tell you that this slice is empty because there was nothing to measure or if it is empty because the radar did not work at this timestep.')
+        ncquality.setncattr('comment', 'In case of a slice, at a given timestep, full of FillValue,' +
+                                       'this variable will tell you that this slice is empty because ' +
+                                       'there was nothing to measure or if it is empty because the ' +
+                                       'radar did not work at this timestep.')
 
         # Assign values.
         mymoment[:] = moment['data']
@@ -246,15 +249,5 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
         # # Set main metadata
         for mykey in global_metadata.keys():
             rootgrp.setncattr(mykey, global_metadata[mykey])
-        #
-        # # Set moment metadata.
-        # for key, val in moment.items():
-        #     if key in ['standard_name', 'short_name', 'long_name', "units", "data"]:
-        #         continue
-        #
-        #     try:
-        #         mymoment.setncattr_string(key, val)
-        #     except AttributeError:
-        #         continue
 
     return None

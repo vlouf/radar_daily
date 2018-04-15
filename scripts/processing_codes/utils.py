@@ -145,7 +145,7 @@ def get_radar_meta(radar):
         mymeta: dict
             Metadata for radar.
     """
-    mymeta = radar.metadata    
+    mymeta = radar.metadata
     return mymeta
 
 
