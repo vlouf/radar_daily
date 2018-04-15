@@ -19,7 +19,6 @@ import gc
 import os
 import re
 import sys
-import glob
 import time
 import signal
 import argparse
@@ -125,13 +124,13 @@ def processing_line(input_dir, output_dir, year, month, day):
 
         # Parsing existing keys.
         for mykey in goodkeys:
-            mymoment = get_moment(radar, mykey, fillvalue=FILLVALUE)            
+            mymoment = get_moment(radar, mykey, fillvalue=FILLVALUE)
             if mykey in ['D0', 'NW', 'radar_estimated_rain_rate']:
                 mymoment[mymoment == FILLVALUE] = 0
-                mymoment = np.ma.masked_where(np.isnan(mymoment), mymoment)                
+                mymoment = np.ma.masked_where(np.isnan(mymoment), mymoment)
             else:
                 mymoment = np.ma.masked_where(np.isnan(mymoment) | (mymoment == FILLVALUE), mymoment)
-            
+
             MOMENT[mykey]['data'][cnt, :, :] = mymoment
             # Include metadata
             if len(MOMENT[mykey].keys()) == 1:
@@ -213,10 +212,12 @@ def processing_line(input_dir, output_dir, year, month, day):
 
         # Writing level 2 for this date and moment.
         try:
-            write_ncfile(outfilename, proc_time, XDIM, XDIM, latitude, longitude, mymoment, mykey, main_meta, file_exist)
+            write_ncfile(outfilename, proc_time, XDIM, XDIM, latitude, longitude,
+                         mymoment, mykey, main_meta, file_exist)
         except RuntimeError:
             print(crayons.red(f"RuntimeError for {outfilename}"))
-            write_ncfile(outfilename, proc_time, XDIM, XDIM, latitude, longitude, mymoment, mykey, main_meta, file_exist)
+            write_ncfile(outfilename, proc_time, XDIM, XDIM, latitude, longitude,
+                         mymoment, mykey, main_meta, file_exist)
             print(crayons.green(f"RuntimeError for {outfilename} passed."))
         print(crayons.green("{} written.".format(outfilename)))
 
@@ -295,8 +296,10 @@ if __name__ == "__main__":
     parser.add_argument('-j', '--cpu', dest='ncpu', default=32, type=int, help='Number of process')
     parser.add_argument('-s', '--start-date', dest='start_date', default=None, type=str, help='Starting date.')
     parser.add_argument('-e', '--end-date', dest='end_date', default=None, type=str, help='Ending date.')
-    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/CPOL_level_1b/", type=str, help='Input directory.')
-    parser.add_argument('-o', '--output', dest='outdir', default="/g/data2/rr5/vhl548/CPOL_level_2/", type=str, help='Output directory.')
+    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/CPOL_level_1b/",
+                        type=str, help='Input directory.')
+    parser.add_argument('-o', '--output', dest='outdir', default="/g/data2/rr5/vhl548/CPOL_level_2/",
+                        type=str, help='Output directory.')
 
     args = parser.parse_args()
     NCPU = args.ncpu

@@ -51,7 +51,7 @@ def _echo_top_height(x, y, z, refl, stein, altitude_work, threshold, tolerance):
                 if (ipass == 0) and (refl[k - 1, i, j] >= threshold) and (refl[k, i, j] <= threshold):
                     ipass = 1
                     ktop = k
-                    break                                    
+                    break
 
             for k in range(kgood, nz):
                 if (ipass == 0) and (refl[k, i, j] < threshold + tolerance):
@@ -223,21 +223,21 @@ def cloud_top_height(pyart_grid, tvel_name="velocity_texture", dbz_name="reflect
     grid_x = pyart_grid.point_x['data']
 
     array_shape = texture.shape
-    echo_top = np.zeros((array_shape[1],array_shape[2]))
-    z_values, y_values, x_values = np.meshgrid(range(0,array_shape[0]),
-                                               range(0,array_shape[1]),
-                                               range(0,array_shape[2]),
+    echo_top = np.zeros((array_shape[1], array_shape[2]))
+    z_values, y_values, x_values = np.meshgrid(range(0, array_shape[0]),
+                                               range(0, array_shape[1]),
+                                               range(0, array_shape[2]),
                                                indexing='ij')
     labels = y_values * array_shape[2] + x_values
-    in_cloud = np.ma.masked_where(np.logical_or(z.mask == True, texture > 3), texture)
+    in_cloud = np.ma.masked_where(np.logical_or(z.mask, texture > 3), texture)
     in_cloud[~in_cloud.mask] = labels[~in_cloud.mask]
     echo_top = ndimage.measurements.maximum(grid_z,
                                             labels=in_cloud,
                                             index=in_cloud)
-    echo_top = echo_top[0,:,:]
+    echo_top = echo_top[0, :, :]
     echo_top_meta = {'data': echo_top,
-                    'standard_name': 'cloud_top_height',
-                    'long_name': 'Cloud top height',
-                    'units': "meters"}
+                     'standard_name': 'cloud_top_height',
+                     'long_name': 'Cloud top height',
+                     'units': "meters"}
 
     return echo_top_meta
