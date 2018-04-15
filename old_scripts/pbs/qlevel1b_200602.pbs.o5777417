@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2017-06-15 14:01:32:
+   Job Id:             5777417.r-man2
+   Project:            kl02
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      97.40
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 00:08:44                                   
+   Memory Requested:   32.0GB                Memory Used: 8.68GB          
+   Walltime requested: 02:00:00            Walltime Used: 02:01:45        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -P kl02
+#PBS -q express
+#PBS -l walltime=1:00:00
+#PBS -l mem=16GB
+#PBS -l wd
+#PBS -l ncpus=16
+#PBS -lother=gdata2
+source activate radar
+python daily_file.py -s 20150301 -e 20150331 -j 16

@@ -1,0 +1,14 @@
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/config.py:22: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g

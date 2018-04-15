@@ -1,0 +1,1418 @@
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/config.py:22: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g
+*** glibc detected *** python: free(): invalid size: 0x000000000c1e69a0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f3e)[0x7fe25e40af3e]
+/lib64/libc.so.6(+0x78d8d)[0x7fe25e40dd8d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5MM_xfree+0xe)[0x7fe2514c5dde]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(+0x14d6ce)[0x7fe2514ed6ce]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5O_msg_reset+0x29)[0x7fe2514ef4b9]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5G__link_release_table+0x40)[0x7fe251481620]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5G__dense_iterate+0xb5)[0x7fe251479535]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5G__obj_iterate+0xa1)[0x7fe251487951]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5G_iterate+0xec)[0x7fe2514807bc]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libhdf5.so.10(H5Literate+0xff)[0x7fe2514bae4f]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libnetcdf.so.11(+0x98015)[0x7fe252020015]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libnetcdf.so.11(+0x98689)[0x7fe252020689]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libnetcdf.so.11(NC4_open+0x145)[0x7fe2520219b8]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libnetcdf.so.11(NC_open+0x2a0)[0x7fe251fceebf]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/../../../libnetcdf.so.11(nc_open+0x40)[0x7fe251fce32c]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/_netCDF4.cpython-36m-x86_64-linux-gnu.so(+0xece01)[0x7fe255415e01]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0xd9d4c)[0x7fe25f2b2d4c]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyObject_FastCallDict+0x9e)[0x7fe25f244ade]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyObject_FastCallKeywords+0xa8)[0x7fe25f244c98]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1482bb)[0x7fe25f3212bb]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x1e7d)[0x7fe25f3238dd]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x146a60)[0x7fe25f31fa60]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x14848a)[0x7fe25f32148a]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x145e74)[0x7fe25f31ee74]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1485e8)[0x7fe25f3215e8]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x146a60)[0x7fe25f31fa60]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyEval_EvalCodeEx+0x63)[0x7fe25f31fee3]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x9edc2)[0x7fe25f277dc2]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyObject_Call+0x56)[0x7fe25f244e96]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1c689a)[0x7fe25f39f89a]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0xa4f16)[0x7fe25f27df16]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0xa5398)[0x7fe25f27e398]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0xd9d4c)[0x7fe25f2b2d4c]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyObject_FastCallDict+0x9e)[0x7fe25f244ade]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1482bb)[0x7fe25f3212bb]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x146a60)[0x7fe25f31fa60]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyEval_EvalCodeEx+0x63)[0x7fe25f31fee3]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x9eee1)[0x7fe25f277ee1]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyObject_Call+0x56)[0x7fe25f244e96]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x37d6)[0x7fe25f325236]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x146a60)[0x7fe25f31fa60]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyEval_EvalCodeEx+0x63)[0x7fe25f31fee3]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x9eee1)[0x7fe25f277ee1]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyObject_Call+0x56)[0x7fe25f244e96]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x37d6)[0x7fe25f325236]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x145e74)[0x7fe25f31ee74]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1485e8)[0x7fe25f3215e8]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x145e74)[0x7fe25f31ee74]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1485e8)[0x7fe25f3215e8]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x145e74)[0x7fe25f31ee74]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x1485e8)[0x7fe25f3215e8]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyEval_EvalFrameDefault+0x26fd)[0x7fe25f32415d]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0x145e74)[0x7fe25f31ee74]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyFunction_FastCallDict+0x285)[0x7fe25f31fe75]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyObject_FastCallDict+0x166)[0x7fe25f244ba6]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(_PyObject_Call_Prepend+0xcc)[0x7fe25f244dfc]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(PyObject_Call+0x56)[0x7fe25f244e96]
+/g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/../lib/libpython3.6m.so.1.0(+0xe4233)[0x7fe25f2bd233]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 a14:3844c 144117312725723376             /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/python3.6
+00601000-00602000 rw-p 00001000 a14:3844c 144117312725723376             /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/bin/python3.6
+007c9000-01de7000 rw-p 00000000 00:00 0                                  [heap]
+01de7000-1ce27000 rw-p 00000000 00:00 0                                  [heap]
+7fe22c000000-7fe22c021000 rw-p 00000000 00:00 0 
+7fe22c021000-7fe230000000 ---p 00000000 00:00 0 
+7fe23103e000-7fe231f49000 rw-p 00000000 00:00 0 
+7fe232dd4000-7fe232e54000 rw-p 00000000 00:00 0 
+7fe232e54000-7fe232e94000 rw-p 00000000 00:00 0 
+7fe232e94000-7fe232e97000 r-xp 00000000 a14:3844c 144117304739764511     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-linux-gnu.so
+7fe232e97000-7fe233097000 ---p 00003000 a14:3844c 144117304739764511     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-linux-gnu.so
+7fe233097000-7fe233098000 rw-p 00003000 a14:3844c 144117304739764511     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-linux-gnu.so
+7fe233098000-7fe2330d8000 rw-p 00000000 00:00 0 
+7fe2330d8000-7fe2330e9000 r-xp 00000000 a14:3844c 144117312725726417     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/testing.cpython-36m-x86_64-linux-gnu.so
+7fe2330e9000-7fe2332e8000 ---p 00011000 a14:3844c 144117312725726417     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/testing.cpython-36m-x86_64-linux-gnu.so
+7fe2332e8000-7fe2332ea000 rw-p 00010000 a14:3844c 144117312725726417     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/testing.cpython-36m-x86_64-linux-gnu.so
+7fe2332ea000-7fe2332eb000 r-xp 00000000 a14:3844c 144117312725727695     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/util/_move.cpython-36m-x86_64-linux-gnu.so
+7fe2332eb000-7fe2334eb000 ---p 00001000 a14:3844c 144117312725727695     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/util/_move.cpython-36m-x86_64-linux-gnu.so
+7fe2334eb000-7fe2334ec000 rw-p 00001000 a14:3844c 144117312725727695     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/util/_move.cpython-36m-x86_64-linux-gnu.so
+7fe2334ec000-7fe233501000 r-xp 00000000 a14:3844c 144117312725726721     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_unpacker.cpython-36m-x86_64-linux-gnu.so
+7fe233501000-7fe233700000 ---p 00015000 a14:3844c 144117312725726721     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_unpacker.cpython-36m-x86_64-linux-gnu.so
+7fe233700000-7fe233703000 rw-p 00014000 a14:3844c 144117312725726721     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_unpacker.cpython-36m-x86_64-linux-gnu.so
+7fe233703000-7fe233712000 r-xp 00000000 a14:3844c 144117312725726720     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_packer.cpython-36m-x86_64-linux-gnu.so
+7fe233712000-7fe233911000 ---p 0000f000 a14:3844c 144117312725726720     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_packer.cpython-36m-x86_64-linux-gnu.so
+7fe233911000-7fe233913000 rw-p 0000e000 a14:3844c 144117312725726720     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/io/msgpack/_packer.cpython-36m-x86_64-linux-gnu.so
+7fe233913000-7fe233a13000 rw-p 00000000 00:00 0 
+7fe233a13000-7fe233a29000 r-xp 00000000 a14:3844c 144117312725726411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/json.cpython-36m-x86_64-linux-gnu.so
+7fe233a29000-7fe233c29000 ---p 00016000 a14:3844c 144117312725726411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/json.cpython-36m-x86_64-linux-gnu.so
+7fe233c29000-7fe233c2a000 rw-p 00016000 a14:3844c 144117312725726411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/json.cpython-36m-x86_64-linux-gnu.so
+7fe233c2a000-7fe233cb0000 r-xp 00000000 a14:3844c 144117312725726413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/parsers.cpython-36m-x86_64-linux-gnu.so
+7fe233cb0000-7fe233eaf000 ---p 00086000 a14:3844c 144117312725726413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/parsers.cpython-36m-x86_64-linux-gnu.so
+7fe233eaf000-7fe233eb6000 rw-p 00085000 a14:3844c 144117312725726413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/parsers.cpython-36m-x86_64-linux-gnu.so
+7fe233eb6000-7fe233f37000 rw-p 00000000 00:00 0 
+7fe233f37000-7fe233f4e000 r-xp 00000000 a14:3844c 144117312725726415     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/reshape.cpython-36m-x86_64-linux-gnu.so
+7fe233f4e000-7fe23414d000 ---p 00017000 a14:3844c 144117312725726415     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/reshape.cpython-36m-x86_64-linux-gnu.so
+7fe23414d000-7fe234150000 rw-p 00016000 a14:3844c 144117312725726415     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/reshape.cpython-36m-x86_64-linux-gnu.so
+7fe234150000-7fe2341d0000 rw-p 00000000 00:00 0 
+7fe2341d0000-7fe234265000 r-xp 00000000 a14:3844c 144117312725726405     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/groupby.cpython-36m-x86_64-linux-gnu.so
+7fe234265000-7fe234465000 ---p 00095000 a14:3844c 144117312725726405     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/groupby.cpython-36m-x86_64-linux-gnu.so
+7fe234465000-7fe23446b000 rw-p 00095000 a14:3844c 144117312725726405     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/groupby.cpython-36m-x86_64-linux-gnu.so
+7fe23446b000-7fe23452c000 rw-p 00000000 00:00 0 
+7fe23452c000-7fe2345d1000 r-xp 00000000 a14:3844c 144117312725726419     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/window.cpython-36m-x86_64-linux-gnu.so
+7fe2345d1000-7fe2347d1000 ---p 000a5000 a14:3844c 144117312725726419     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/window.cpython-36m-x86_64-linux-gnu.so
+7fe2347d1000-7fe2347d8000 rw-p 000a5000 a14:3844c 144117312725726419     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/window.cpython-36m-x86_64-linux-gnu.so
+7fe2347d8000-7fe234859000 rw-p 00000000 00:00 0 
+7fe234859000-7fe23485e000 r-xp 00000000 a14:3844c 144117304739764536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-linux-gnu.so
+7fe23485e000-7fe234a5e000 ---p 00005000 a14:3844c 144117304739764536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-linux-gnu.so
+7fe234a5e000-7fe234a5f000 rw-p 00005000 a14:3844c 144117304739764536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-linux-gnu.so
+7fe234a5f000-7fe234a9f000 rw-p 00000000 00:00 0 
+7fe234a9f000-7fe234b94000 r-xp 00000000 a14:3844c 144117312725726416     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/sparse.cpython-36m-x86_64-linux-gnu.so
+7fe234b94000-7fe234d94000 ---p 000f5000 a14:3844c 144117312725726416     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/sparse.cpython-36m-x86_64-linux-gnu.so
+7fe234d94000-7fe234d99000 rw-p 000f5000 a14:3844c 144117312725726416     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/sparse.cpython-36m-x86_64-linux-gnu.so
+7fe234d99000-7fe234ed9000 rw-p 00000000 00:00 0 
+7fe234ed9000-7fe234f40000 r-xp 00000000 a14:3844c 144117312725726414     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/period.cpython-36m-x86_64-linux-gnu.so
+7fe234f40000-7fe23513f000 ---p 00067000 a14:3844c 144117312725726414     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/period.cpython-36m-x86_64-linux-gnu.so
+7fe23513f000-7fe235147000 rw-p 00066000 a14:3844c 144117312725726414     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/period.cpython-36m-x86_64-linux-gnu.so
+7fe235147000-7fe235287000 rw-p 00000000 00:00 0 
+7fe235287000-7fe23549c000 r-xp 00000000 a14:3844c 144117312725726410     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/join.cpython-36m-x86_64-linux-gnu.so
+7fe23549c000-7fe23569c000 ---p 00215000 a14:3844c 144117312725726410     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/join.cpython-36m-x86_64-linux-gnu.so
+7fe23569c000-7fe2356a5000 rw-p 00215000 a14:3844c 144117312725726410     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/join.cpython-36m-x86_64-linux-gnu.so
+7fe2356a5000-7fe2356a6000 rw-p 00000000 00:00 0 
+7fe2356a6000-7fe235705000 r-xp 00000000 a14:3844c 144117312725726408     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/index.cpython-36m-x86_64-linux-gnu.so
+7fe235705000-7fe235905000 ---p 0005f000 a14:3844c 144117312725726408     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/index.cpython-36m-x86_64-linux-gnu.so
+7fe235905000-7fe23590a000 rw-p 0005f000 a14:3844c 144117312725726408     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/index.cpython-36m-x86_64-linux-gnu.so
+7fe23590a000-7fe2359cb000 rw-p 00000000 00:00 0 
+7fe2359cb000-7fe2359d8000 r-xp 00000000 a14:3844c 144117312725726406     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashing.cpython-36m-x86_64-linux-gnu.so
+7fe2359d8000-7fe235bd8000 ---p 0000d000 a14:3844c 144117312725726406     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashing.cpython-36m-x86_64-linux-gnu.so
+7fe235bd8000-7fe235bda000 rw-p 0000d000 a14:3844c 144117312725726406     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashing.cpython-36m-x86_64-linux-gnu.so
+7fe235bda000-7fe235c5a000 rw-p 00000000 00:00 0 
+7fe235c5a000-7fe235db1000 r-xp 00000000 a14:3844c 144117312725726404     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/algos.cpython-36m-x86_64-linux-gnu.so
+7fe235db1000-7fe235fb1000 ---p 00157000 a14:3844c 144117312725726404     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/algos.cpython-36m-x86_64-linux-gnu.so
+7fe235fb1000-7fe235fbd000 rw-p 00157000 a14:3844c 144117312725726404     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/algos.cpython-36m-x86_64-linux-gnu.so
+7fe235fbd000-7fe235fff000 rw-p 00000000 00:00 0 
+7fe235fff000-7fe236173000 r-xp 00000000 a14:3844c 144117312725726409     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/interval.cpython-36m-x86_64-linux-gnu.so
+7fe236173000-7fe236373000 ---p 00174000 a14:3844c 144117312725726409     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/interval.cpython-36m-x86_64-linux-gnu.so
+7fe236373000-7fe23637f000 rw-p 00174000 a14:3844c 144117312725726409     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/interval.cpython-36m-x86_64-linux-gnu.so
+7fe23637f000-7fe2363c0000 rw-p 00000000 00:00 0 
+7fe2363c0000-7fe2364d2000 r-xp 00000000 a14:3844c 144117312725726412     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/lib.cpython-36m-x86_64-linux-gnu.so
+7fe2364d2000-7fe2366d1000 ---p 00112000 a14:3844c 144117312725726412     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/lib.cpython-36m-x86_64-linux-gnu.so
+7fe2366d1000-7fe2366df000 rw-p 00111000 a14:3844c 144117312725726412     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/lib.cpython-36m-x86_64-linux-gnu.so
+7fe2366df000-7fe2366e1000 rw-p 00000000 00:00 0 
+7fe2366e1000-7fe236771000 r-xp 00000000 a14:3844c 144117312725726407     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashtable.cpython-36m-x86_64-linux-gnu.so
+7fe236771000-7fe236971000 ---p 00090000 a14:3844c 144117312725726407     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashtable.cpython-36m-x86_64-linux-gnu.so
+7fe236971000-7fe236978000 rw-p 00090000 a14:3844c 144117312725726407     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/hashtable.cpython-36m-x86_64-linux-gnu.so
+7fe236978000-7fe236979000 rw-p 00000000 00:00 0 
+7fe236979000-7fe236b19000 r-xp 00000000 a14:3844c 144117312725726418     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/tslib.cpython-36m-x86_64-linux-gnu.so
+7fe236b19000-7fe236d19000 ---p 001a0000 a14:3844c 144117312725726418     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/tslib.cpython-36m-x86_64-linux-gnu.so
+7fe236d19000-7fe236d2c000 rw-p 001a0000 a14:3844c 144117312725726418     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pandas/_libs/tslib.cpython-36m-x86_64-linux-gnu.so
+7fe236d2c000-7fe236db0000 rw-p 00000000 00:00 0 
+7fe236db0000-7fe236dee000 r-xp 00000000 2fc:57fe8 144121842305639320     /apps/gcc/6.2.0/lib64/libquadmath.so.0.0.0
+7fe236dee000-7fe236fee000 ---p 0003e000 2fc:57fe8 144121842305639320     /apps/gcc/6.2.0/lib64/libquadmath.so.0.0.0
+7fe236fee000-7fe236fef000 rw-p 0003e000 2fc:57fe8 144121842305639320     /apps/gcc/6.2.0/lib64/libquadmath.so.0.0.0
+7fe236fef000-7fe236ff9000 r-xp 00000000 a14:3844c 144117312725727966     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_echo_steiner.cpython-36m-x86_64-linux-gnu.so
+7fe236ff9000-7fe2371f8000 ---p 0000a000 a14:3844c 144117312725727966     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_echo_steiner.cpython-36m-x86_64-linux-gnu.so
+7fe2371f8000-7fe2371fa000 rw-p 00009000 a14:3844c 144117312725727966     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_echo_steiner.cpython-36m-x86_64-linux-gnu.so
+7fe2371fa000-7fe237218000 r-xp 00000000 a14:3844c 144117312725727968     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_kdp_proc.cpython-36m-x86_64-linux-gnu.so
+7fe237218000-7fe237417000 ---p 0001e000 a14:3844c 144117312725727968     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_kdp_proc.cpython-36m-x86_64-linux-gnu.so
+7fe237417000-7fe23741b000 rw-p 0001d000 a14:3844c 144117312725727968     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/retrieve/_kdp_proc.cpython-36m-x86_64-linux-gnu.so
+7fe23741b000-7fe2374db000 rw-p 00000000 00:00 0 
+7fe2374db000-7fe2374ec000 r-xp 00000000 a14:3844c 144117312725726054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so
+7fe2374ec000-7fe2376eb000 ---p 00011000 a14:3844c 144117312725726054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so
+7fe2376eb000-7fe2376ee000 rw-p 00010000 a14:3844c 144117312725726054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so
+7fe2376ee000-7fe237701000 r-xp 00000000 a14:3844c 144117312725726055     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so
+7fe237701000-7fe237900000 ---p 00013000 a14:3844c 144117312725726055     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so
+7fe237900000-7fe237904000 rw-p 00012000 a14:3844c 144117312725726055     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so
+7fe237904000-7fe237944000 rw-p 00000000 00:00 0 
+7fe237944000-7fe237948000 r-xp 00000000 a14:3844c 144117312725726051     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so
+7fe237948000-7fe237b48000 ---p 00004000 a14:3844c 144117312725726051     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so
+7fe237b48000-7fe237b49000 rw-p 00004000 a14:3844c 144117312725726051     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so
+7fe237b49000-7fe237b55000 r-xp 00000000 a14:3844c 144117312725726053     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so
+7fe237b55000-7fe237d55000 ---p 0000c000 a14:3844c 144117312725726053     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so
+7fe237d55000-7fe237d57000 rw-p 0000c000 a14:3844c 144117312725726053     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so
+7fe237d57000-7fe237d75000 r-xp 00000000 a14:3844c 144117312725726052     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so
+7fe237d75000-7fe237f75000 ---p 0001e000 a14:3844c 144117312725726052     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so
+7fe237f75000-7fe237f78000 rw-p 0001e000 a14:3844c 144117312725726052     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so
+7fe237f78000-7fe237f79000 rw-p 00000000 00:00 0 
+7fe237f79000-7fe237f91000 r-xp 00000000 a14:3844c 144117312725726050     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so
+7fe237f91000-7fe238191000 ---p 00018000 a14:3844c 144117312725726050     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so
+7fe238191000-7fe238194000 rw-p 00018000 a14:3844c 144117312725726050     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so
+7fe238194000-7fe238195000 rw-p 00000000 00:00 0 
+7fe238195000-7fe2381a3000 r-xp 00000000 a14:3844c 144117312725726049     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so
+7fe2381a3000-7fe2383a2000 ---p 0000e000 a14:3844c 144117312725726049     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so
+7fe2383a2000-7fe2383a4000 rw-p 0000d000 a14:3844c 144117312725726049     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so
+7fe2383a4000-7fe2383bc000 r-xp 00000000 a14:3844c 144117312725726048     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so
+7fe2383bc000-7fe2385bb000 ---p 00018000 a14:3844c 144117312725726048     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so
+7fe2385bb000-7fe2385be000 rw-p 00017000 a14:3844c 144117312725726048     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so
+7fe2385be000-7fe2385c7000 r-xp 00000000 a14:3844c 144117312725726043     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so
+7fe2385c7000-7fe2387c6000 ---p 00009000 a14:3844c 144117312725726043     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so
+7fe2387c6000-7fe2387c7000 rw-p 00008000 a14:3844c 144117312725726043     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so
+7fe2387c7000-7fe238807000 rw-p 00000000 00:00 0 
+7fe238807000-7fe238810000 r-xp 00000000 a14:3844c 144117312725726047     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so
+7fe238810000-7fe238a10000 ---p 00009000 a14:3844c 144117312725726047     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so
+7fe238a10000-7fe238a11000 rw-p 00009000 a14:3844c 144117312725726047     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so
+7fe238a11000-7fe238a41000 r-xp 00000000 a14:3844c 144117312725726056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so
+7fe238a41000-7fe238c41000 ---p 00030000 a14:3844c 144117312725726056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so
+7fe238c41000-7fe238c49000 rw-p 00030000 a14:3844c 144117312725726056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so
+7fe238c49000-7fe238c4a000 rw-p 00000000 00:00 0 
+7fe238c4a000-7fe238c62000 r-xp 00000000 a14:3844c 144117312725726058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so
+7fe238c62000-7fe238e62000 ---p 00018000 a14:3844c 144117312725726058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so
+7fe238e62000-7fe238e65000 rw-p 00018000 a14:3844c 144117312725726058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so
+7fe238e65000-7fe238e66000 rw-p 00000000 00:00 0 
+7fe238e66000-7fe238e80000 r-xp 00000000 a14:3844c 144117312725726046     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so
+7fe238e80000-7fe23907f000 ---p 0001a000 a14:3844c 144117312725726046     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so
+7fe23907f000-7fe239083000 rw-p 00019000 a14:3844c 144117312725726046     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so
+7fe239083000-7fe23908b000 r-xp 00000000 a14:3844c 144117312725726060     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so
+7fe23908b000-7fe23928b000 ---p 00008000 a14:3844c 144117312725726060     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so
+7fe23928b000-7fe23928c000 rw-p 00008000 a14:3844c 144117312725726060     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so
+7fe23928c000-7fe23928d000 rw-p 00000000 00:00 0 
+7fe23928d000-7fe2392a0000 r-xp 00000000 a14:3844c 144117312725726045     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so
+7fe2392a0000-7fe23949f000 ---p 00013000 a14:3844c 144117312725726045     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so
+7fe23949f000-7fe2394a1000 rw-p 00012000 a14:3844c 144117312725726045     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so
+7fe2394a1000-7fe2394a2000 rw-p 00000000 00:00 0 
+7fe2394a2000-7fe2394ab000 r-xp 00000000 a14:3844c 144117312725726061     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so
+7fe2394ab000-7fe2396aa000 ---p 00009000 a14:3844c 144117312725726061     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so
+7fe2396aa000-7fe2396ab000 rw-p 00008000 a14:3844c 144117312725726061     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so
+7fe2396ab000-7fe239711000 r-xp 00000000 a14:3844c 144117312725726059     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so
+7fe239711000-7fe239911000 ---p 00066000 a14:3844c 144117312725726059     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so
+7fe239911000-7fe23991a000 rw-p 00066000 a14:3844c 144117312725726059     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so
+7fe23991a000-7fe23991c000 rw-p 00000000 00:00 0 
+7fe23991c000-7fe23994b000 r-xp 00000000 a14:3844c 144117312725726044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so
+7fe23994b000-7fe239b4b000 ---p 0002f000 a14:3844c 144117312725726044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so
+7fe239b4b000-7fe239b4d000 rw-p 0002f000 a14:3844c 144117312725726044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so
+7fe239b4d000-7fe239b8d000 rw-p 00000000 00:00 0 
+7fe239b8d000-7fe239ba8000 r-xp 00000000 a14:3844c 144117312725726042     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so
+7fe239ba8000-7fe239da8000 ---p 0001b000 a14:3844c 144117312725726042     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so
+7fe239da8000-7fe239dab000 rw-p 0001b000 a14:3844c 144117312725726042     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so
+7fe239dab000-7fe239db6000 r-xp 00000000 a14:3844c 144117312725726057     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so
+7fe239db6000-7fe239fb6000 ---p 0000b000 a14:3844c 144117312725726057     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so
+7fe239fb6000-7fe239fb8000 rw-p 0000b000 a14:3844c 144117312725726057     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so
+7fe239fb8000-7fe239fca000 r-xp 00000000 a14:3844c 144117312725726040     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so
+7fe239fca000-7fe23a1ca000 ---p 00012000 a14:3844c 144117312725726040     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so
+7fe23a1ca000-7fe23a1cb000 rw-p 00012000 a14:3844c 144117312725726040     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so
+7fe23a1cb000-7fe23a1d5000 r-xp 00000000 a14:3844c 144117312725726041     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so
+7fe23a1d5000-7fe23a3d5000 ---p 0000a000 a14:3844c 144117312725726041     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so
+7fe23a3d5000-7fe23a3d6000 rw-p 0000a000 a14:3844c 144117312725726041     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so
+7fe23a3d6000-7fe23a400000 r-xp 00000000 a14:3844c 144117312725727983     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_gate_to_grid_map.cpython-36m-x86_64-linux-gnu.so
+7fe23a400000-7fe23a5ff000 ---p 0002a000 a14:3844c 144117312725727983     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_gate_to_grid_map.cpython-36m-x86_64-linux-gnu.so
+7fe23a5ff000-7fe23a604000 rw-p 00029000 a14:3844c 144117312725727983     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_gate_to_grid_map.cpython-36m-x86_64-linux-gnu.so
+7fe23a604000-7fe23a62c000 r-xp 00000000 a14:3844c 144117312725727986     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe23a62c000-7fe23a82c000 ---p 00028000 a14:3844c 144117312725727986     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe23a82c000-7fe23a831000 rw-p 00028000 a14:3844c 144117312725727986     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe23a831000-7fe23a832000 rw-p 00000000 00:00 0 
+7fe23a832000-7fe23a84f000 r-xp 00000000 a14:3844c 144117312725727988     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_load_nn_field_data.cpython-36m-x86_64-linux-gnu.so
+7fe23a84f000-7fe23aa4f000 ---p 0001d000 a14:3844c 144117312725727988     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_load_nn_field_data.cpython-36m-x86_64-linux-gnu.so
+7fe23aa4f000-7fe23aa52000 rw-p 0001d000 a14:3844c 144117312725727988     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/map/_load_nn_field_data.cpython-36m-x86_64-linux-gnu.so
+7fe23aa52000-7fe23ab12000 rw-p 00000000 00:00 0 
+7fe23ab12000-7fe23ab23000 r-xp 00000000 a14:3844c 144117304739769816     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/mvn.cpython-36m-x86_64-linux-gnu.so
+7fe23ab23000-7fe23ad23000 ---p 00011000 a14:3844c 144117304739769816     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/mvn.cpython-36m-x86_64-linux-gnu.so
+7fe23ad23000-7fe23ad25000 rw-p 00011000 a14:3844c 144117304739769816     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/mvn.cpython-36m-x86_64-linux-gnu.so
+7fe23ad25000-7fe23ae5c000 rw-p 00000000 00:00 0 
+7fe23ae5c000-7fe23ae67000 r-xp 00000000 a14:3844c 144117304739769818     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/statlib.cpython-36m-x86_64-linux-gnu.so
+7fe23ae67000-7fe23b066000 ---p 0000b000 a14:3844c 144117304739769818     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/statlib.cpython-36m-x86_64-linux-gnu.so
+7fe23b066000-7fe23b068000 rw-p 0000a000 a14:3844c 144117304739769818     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/statlib.cpython-36m-x86_64-linux-gnu.so
+7fe23b068000-7fe23b1a8000 rw-p 00000000 00:00 0 
+7fe23b1a8000-7fe23b1fa000 r-xp 00000000 a14:3844c 144117304739769806     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/_stats.cpython-36m-x86_64-linux-gnu.so
+7fe23b1fa000-7fe23b3fa000 ---p 00052000 a14:3844c 144117304739769806     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/_stats.cpython-36m-x86_64-linux-gnu.so
+7fe23b3fa000-7fe23b400000 rw-p 00052000 a14:3844c 144117304739769806     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/stats/_stats.cpython-36m-x86_64-linux-gnu.so
+7fe23b400000-7fe23b4c0000 rw-p 00000000 00:00 0 
+7fe23b4c0000-7fe23b4c8000 r-xp 00000000 a14:3844c 144117304739769339     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_spectral.cpython-36m-x86_64-linux-gnu.so
+7fe23b4c8000-7fe23b6c8000 ---p 00008000 a14:3844c 144117304739769339     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_spectral.cpython-36m-x86_64-linux-gnu.so
+7fe23b6c8000-7fe23b6cb000 rw-p 00008000 a14:3844c 144117304739769339     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_spectral.cpython-36m-x86_64-linux-gnu.so
+7fe23b6cb000-7fe23b70b000 rw-p 00000000 00:00 0 
+7fe23b70b000-7fe23b722000 r-xp 00000000 a14:3844c 144117304739768536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/convolve.cpython-36m-x86_64-linux-gnu.so
+7fe23b722000-7fe23b921000 ---p 00017000 a14:3844c 144117304739768536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/convolve.cpython-36m-x86_64-linux-gnu.so
+7fe23b921000-7fe23b923000 rw-p 00016000 a14:3844c 144117304739768536     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/convolve.cpython-36m-x86_64-linux-gnu.so
+7fe23b923000-7fe23b977000 r-xp 00000000 a14:3844c 144117304739768534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/_fftpack.cpython-36m-x86_64-linux-gnu.so
+7fe23b977000-7fe23bb76000 ---p 00054000 a14:3844c 144117304739768534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/_fftpack.cpython-36m-x86_64-linux-gnu.so
+7fe23bb76000-7fe23bb7e000 rw-p 00053000 a14:3844c 144117304739768534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/fftpack/_fftpack.cpython-36m-x86_64-linux-gnu.so
+7fe23bb7e000-7fe23bbbe000 rw-p 00000000 00:00 0 
+7fe23bbbe000-7fe23bbc8000 r-xp 00000000 a14:3844c 144117304739769351     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/spline.cpython-36m-x86_64-linux-gnu.so
+7fe23bbc8000-7fe23bdc7000 ---p 0000a000 a14:3844c 144117304739769351     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/spline.cpython-36m-x86_64-linux-gnu.so
+7fe23bdc7000-7fe23bdc9000 rw-p 00009000 a14:3844c 144117304739769351     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/spline.cpython-36m-x86_64-linux-gnu.so
+7fe23bdc9000-7fe23bdf6000 r-xp 00000000 a14:3844c 144117304739769341     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_upfirdn_apply.cpython-36m-x86_64-linux-gnu.so
+7fe23bdf6000-7fe23bff5000 ---p 0002d000 a14:3844c 144117304739769341     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_upfirdn_apply.cpython-36m-x86_64-linux-gnu.so
+7fe23bff5000-7fe23bffa000 rw-p 0002c000 a14:3844c 144117304739769341     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_upfirdn_apply.cpython-36m-x86_64-linux-gnu.so
+7fe23bffa000-7fe23c018000 r-xp 00000000 a14:3844c 144117304739769336     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_max_len_seq_inner.cpython-36m-x86_64-linux-gnu.so
+7fe23c018000-7fe23c218000 ---p 0001e000 a14:3844c 144117304739769336     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_max_len_seq_inner.cpython-36m-x86_64-linux-gnu.so
+7fe23c218000-7fe23c21b000 rw-p 0001e000 a14:3844c 144117304739769336     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/_max_len_seq_inner.cpython-36m-x86_64-linux-gnu.so
+7fe23c21b000-7fe23c22e000 r-xp 00000000 a14:3844c 144117304739769349     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/sigtools.cpython-36m-x86_64-linux-gnu.so
+7fe23c22e000-7fe23c42e000 ---p 00013000 a14:3844c 144117304739769349     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/sigtools.cpython-36m-x86_64-linux-gnu.so
+7fe23c42e000-7fe23c42f000 rw-p 00013000 a14:3844c 144117304739769349     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/signal/sigtools.cpython-36m-x86_64-linux-gnu.so
+7fe23c42f000-7fe23c430000 rw-p 00000000 00:00 0 
+7fe23c430000-7fe23c450000 r-xp 00000000 a14:3844c 144117312725728067     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fast_edge_finder.cpython-36m-x86_64-linux-gnu.so
+7fe23c450000-7fe23c650000 ---p 00020000 a14:3844c 144117312725728067     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fast_edge_finder.cpython-36m-x86_64-linux-gnu.so
+7fe23c650000-7fe23c653000 rw-p 00020000 a14:3844c 144117312725728067     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fast_edge_finder.cpython-36m-x86_64-linux-gnu.so
+7fe23c653000-7fe23c654000 rw-p 00000000 00:00 0 
+7fe23c654000-7fe23c676000 r-xp 00000000 a14:3844c 144117312725728058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_3d.cpython-36m-x86_64-linux-gnu.so
+7fe23c676000-7fe23c876000 ---p 00022000 a14:3844c 144117312725728058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_3d.cpython-36m-x86_64-linux-gnu.so
+7fe23c876000-7fe23c879000 rw-p 00022000 a14:3844c 144117312725728058     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_3d.cpython-36m-x86_64-linux-gnu.so
+7fe23c879000-7fe23c898000 r-xp 00000000 a14:3844c 144117312725728065     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_2d.cpython-36m-x86_64-linux-gnu.so
+7fe23c898000-7fe23ca98000 ---p 0001f000 a14:3844c 144117312725728065     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_2d.cpython-36m-x86_64-linux-gnu.so
+7fe23ca98000-7fe23ca9b000 rw-p 0001f000 a14:3844c 144117312725728065     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_2d.cpython-36m-x86_64-linux-gnu.so
+7fe23ca9b000-7fe23cab7000 r-xp 00000000 a14:3844c 144117312725728068     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_1d.cpython-36m-x86_64-linux-gnu.so
+7fe23cab7000-7fe23ccb7000 ---p 0001c000 a14:3844c 144117312725728068     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_1d.cpython-36m-x86_64-linux-gnu.so
+7fe23ccb7000-7fe23ccba000 rw-p 0001c000 a14:3844c 144117312725728068     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_unwrap_1d.cpython-36m-x86_64-linux-gnu.so
+7fe23ccba000-7fe23ccfa000 rw-p 00000000 00:00 0 
+7fe23ccfa000-7fe23cd3b000 r-xp 00000000 a14:3844c 144117304739769139     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_ni_label.cpython-36m-x86_64-linux-gnu.so
+7fe23cd3b000-7fe23cf3b000 ---p 00041000 a14:3844c 144117304739769139     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_ni_label.cpython-36m-x86_64-linux-gnu.so
+7fe23cf3b000-7fe23cf40000 rw-p 00041000 a14:3844c 144117304739769139     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_ni_label.cpython-36m-x86_64-linux-gnu.so
+7fe23cf40000-7fe23cf5e000 r-xp 00000000 a14:3844c 144117304739769138     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_nd_image.cpython-36m-x86_64-linux-gnu.so
+7fe23cf5e000-7fe23d15d000 ---p 0001e000 a14:3844c 144117304739769138     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_nd_image.cpython-36m-x86_64-linux-gnu.so
+7fe23d15d000-7fe23d15e000 rw-p 0001d000 a14:3844c 144117304739769138     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/ndimage/_nd_image.cpython-36m-x86_64-linux-gnu.so
+7fe23d15e000-7fe23d19e000 rw-p 00000000 00:00 0 
+7fe23d19e000-7fe23d1af000 r-xp 00000000 a14:3844c 144117312725728070     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fourdd_interface.cpython-36m-x86_64-linux-gnu.so
+7fe23d1af000-7fe23d3ae000 ---p 00011000 a14:3844c 144117312725728070     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fourdd_interface.cpython-36m-x86_64-linux-gnu.so
+7fe23d3ae000-7fe23d3b1000 rw-p 00010000 a14:3844c 144117312725728070     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/correct/_fourdd_interface.cpython-36m-x86_64-linux-gnu.so
+7fe23d3b1000-7fe23d471000 rw-p 00000000 00:00 0 
+7fe23d471000-7fe23dad7000 r-xp 00000000 a14:3844c 144117304739774684     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Widgets.so.5.6.2
+7fe23dad7000-7fe23dcd7000 ---p 00666000 a14:3844c 144117304739774684     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Widgets.so.5.6.2
+7fe23dcd7000-7fe23dd06000 r--p 00666000 a14:3844c 144117304739774684     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Widgets.so.5.6.2
+7fe23dd06000-7fe23dd0b000 rw-p 00695000 a14:3844c 144117304739774684     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Widgets.so.5.6.2
+7fe23dd0b000-7fe23dd74000 rw-p 0069a000 a14:3844c 144117304739774684     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Widgets.so.5.6.2
+7fe23dd74000-7fe23e25a000 r-xp 00000000 a14:3844c 144117312725724759     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtWidgets.so
+7fe23e25a000-7fe23e459000 ---p 004e6000 a14:3844c 144117312725724759     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtWidgets.so
+7fe23e459000-7fe23e46d000 r--p 004e5000 a14:3844c 144117312725724759     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtWidgets.so
+7fe23e46d000-7fe23e504000 rw-p 004f9000 a14:3844c 144117312725724759     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtWidgets.so
+7fe23e504000-7fe23e544000 rw-p 00000000 00:00 0 
+7fe23e544000-7fe23e546000 r-xp 00000000 2fc:57fe8 144122235228010601     /plush/dugong/usr/lib64/libXau.so.6.0.0
+7fe23e546000-7fe23e746000 ---p 00002000 2fc:57fe8 144122235228010601     /plush/dugong/usr/lib64/libXau.so.6.0.0
+7fe23e746000-7fe23e747000 rw-p 00002000 2fc:57fe8 144122235228010601     /plush/dugong/usr/lib64/libXau.so.6.0.0
+7fe23e747000-7fe23e76b000 r-xp 00000000 a14:3844c 144117304739761856     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libxcb.so.1.1.0
+7fe23e76b000-7fe23e96a000 ---p 00024000 a14:3844c 144117304739761856     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libxcb.so.1.1.0
+7fe23e96a000-7fe23e96b000 rw-p 00023000 a14:3844c 144117304739761856     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libxcb.so.1.1.0
+7fe23e96b000-7fe23e97c000 r-xp 00000000 2fc:57fe8 144122235228010608     /plush/dugong/usr/lib64/libXext.so.6.4.0
+7fe23e97c000-7fe23eb7c000 ---p 00011000 2fc:57fe8 144122235228010608     /plush/dugong/usr/lib64/libXext.so.6.4.0
+7fe23eb7c000-7fe23eb7d000 rw-p 00011000 2fc:57fe8 144122235228010608     /plush/dugong/usr/lib64/libXext.so.6.4.0
+7fe23eb7d000-7fe23ecb4000 r-xp 00000000 2fc:57fe8 144122235228010600     /plush/dugong/usr/lib64/libX11.so.6.3.0
+7fe23ecb4000-7fe23eeb4000 ---p 00137000 2fc:57fe8 144122235228010600     /plush/dugong/usr/lib64/libX11.so.6.3.0
+7fe23eeb4000-7fe23eeba000 rw-p 00137000 2fc:57fe8 144122235228010600     /plush/dugong/usr/lib64/libX11.so.6.3.0
+7fe23eeba000-7fe23ef40000 r-xp 00000000 2fc:57fe8 144122347954143043     /plush/dugong/usr/lib64/libGLdispatch.so.0
+7fe23ef40000-7fe23f140000 ---p 00086000 2fc:57fe8 144122347954143043     /plush/dugong/usr/lib64/libGLdispatch.so.0
+7fe23f140000-7fe23f168000 rw-p 00086000 2fc:57fe8 144122347954143043     /plush/dugong/usr/lib64/libGLdispatch.so.0
+7fe23f168000-7fe23f188000 rw-p 00000000 00:00 0 
+7fe23f188000-7fe23f197000 r-xp 00000000 2fc:57fe8 144122347954143041     /plush/dugong/usr/lib64/libGLX.so.0
+7fe23f197000-7fe23f397000 ---p 0000f000 2fc:57fe8 144122347954143041     /plush/dugong/usr/lib64/libGLX.so.0
+7fe23f397000-7fe23f398000 rw-p 0000f000 2fc:57fe8 144122347954143041     /plush/dugong/usr/lib64/libGLX.so.0
+7fe23f398000-7fe23f3b8000 rw-p 00000000 00:00 0 
+7fe23f3b8000-7fe23f441000 r-xp 00000000 2fc:57fe8 144122347954143036     /plush/dugong/usr/lib64/libGL.so.1.0.0
+7fe23f441000-7fe23f641000 ---p 00089000 2fc:57fe8 144122347954143036     /plush/dugong/usr/lib64/libGL.so.1.0.0
+7fe23f641000-7fe23f65b000 rw-p 00089000 2fc:57fe8 144122347954143036     /plush/dugong/usr/lib64/libGL.so.1.0.0
+7fe23f65b000-7fe23f65c000 rw-p 00000000 00:00 0 
+7fe23f65c000-7fe23fc13000 r-xp 00000000 a14:3844c 144117304739774698     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Gui.so.5.6.2
+7fe23fc13000-7fe23fe13000 ---p 005b7000 a14:3844c 144117304739774698     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Gui.so.5.6.2
+7fe23fe13000-7fe23fe25000 r--p 005b7000 a14:3844c 144117304739774698     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Gui.so.5.6.2
+7fe23fe25000-7fe23fe2b000 rw-p 005c9000 a14:3844c 144117304739774698     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Gui.so.5.6.2
+7fe23fe2b000-7fe23fe31000 rw-p 00000000 00:00 0 
+7fe23fe31000-7fe23fe85000 rw-p 005d0000 a14:3844c 144117304739774698     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Gui.so.5.6.2
+7fe23fe85000-7fe240146000 r-xp 00000000 a14:3844c 144117312725724741     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtGui.so
+7fe240146000-7fe240345000 ---p 002c1000 a14:3844c 144117312725724741     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtGui.so
+7fe240345000-7fe24035d000 r--p 002c0000 a14:3844c 144117312725724741     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtGui.so
+7fe24035d000-7fe2403c9000 rw-p 002d8000 a14:3844c 144117312725724741     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtGui.so
+7fe2403c9000-7fe240449000 rw-p 00000000 00:00 0 
+7fe240449000-7fe24048c000 r-xp 00000000 a14:3844c 144117304739763153     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpcre.so.1.2.7
+7fe24048c000-7fe24068b000 ---p 00043000 a14:3844c 144117304739763153     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpcre.so.1.2.7
+7fe24068b000-7fe24068c000 rw-p 00042000 a14:3844c 144117304739763153     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpcre.so.1.2.7
+7fe24068c000-7fe2407a0000 r-xp 00000000 a14:3844c 144117312725723552     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libglib-2.0.so.0.5000.2
+7fe2407a0000-7fe24099f000 ---p 00114000 a14:3844c 144117312725723552     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libglib-2.0.so.0.5000.2
+7fe24099f000-7fe2409a2000 rw-p 00113000 a14:3844c 144117312725723552     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libglib-2.0.so.0.5000.2
+7fe2409a2000-7fe2409a3000 rw-p 00000000 00:00 0 
+7fe2409a3000-7fe2409a4000 r-xp 00000000 a14:3844c 144117304739765534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgthread-2.0.so.0.5000.2
+7fe2409a4000-7fe240ba3000 ---p 00001000 a14:3844c 144117304739765534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgthread-2.0.so.0.5000.2
+7fe240ba3000-7fe240ba4000 rw-p 00000000 a14:3844c 144117304739765534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgthread-2.0.so.0.5000.2
+7fe240ba4000-7fe2423ce000 r--p 00000000 a14:3844c 144117304739759130     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicudata.so.54.1
+7fe2423ce000-7fe2425cd000 ---p 0182a000 a14:3844c 144117304739759130     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicudata.so.54.1
+7fe2425cd000-7fe2425ce000 rw-p 01829000 a14:3844c 144117304739759130     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicudata.so.54.1
+7fe2425ce000-7fe242757000 r-xp 00000000 a14:3844c 144117304739759151     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicuuc.so.54.1
+7fe242757000-7fe242956000 ---p 00189000 a14:3844c 144117304739759151     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicuuc.so.54.1
+7fe242956000-7fe242969000 rw-p 00188000 a14:3844c 144117304739759151     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicuuc.so.54.1
+7fe242969000-7fe24296c000 rw-p 00000000 00:00 0 
+7fe24296c000-7fe242bbf000 r-xp 00000000 a14:3844c 144117304739759133     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicui18n.so.54.1
+7fe242bbf000-7fe242dbf000 ---p 00253000 a14:3844c 144117304739759133     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicui18n.so.54.1
+7fe242dbf000-7fe242dd0000 rw-p 00253000 a14:3844c 144117304739759133     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libicui18n.so.54.1
+7fe242dd0000-7fe24330d000 r-xp 00000000 a14:3844c 144117312725724483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Core.so.5.6.2
+7fe24330d000-7fe24350c000 ---p 0053d000 a14:3844c 144117312725724483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Core.so.5.6.2
+7fe24350c000-7fe243519000 r--p 0053c000 a14:3844c 144117312725724483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Core.so.5.6.2
+7fe243519000-7fe24351a000 rw-p 00549000 a14:3844c 144117312725724483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libQt5Core.so.5.6.2
+7fe24351a000-7fe24351e000 rw-p 00000000 00:00 0 
+7fe24351e000-7fe2437a2000 r-xp 00000000 a14:3844c 144117312725724738     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtCore.so
+7fe2437a2000-7fe2439a2000 ---p 00284000 a14:3844c 144117312725724738     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtCore.so
+7fe2439a2000-7fe2439a6000 r--p 00284000 a14:3844c 144117312725724738     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtCore.so
+7fe2439a6000-7fe243a0c000 rw-p 00288000 a14:3844c 144117312725724738     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/PyQt5/QtCore.so
+7fe243a0c000-7fe243a27000 r-xp 00000000 a14:3844c 144117304739767344     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/sip.so
+7fe243a27000-7fe243c27000 ---p 0001b000 a14:3844c 144117304739767344     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/sip.so
+7fe243c27000-7fe243c28000 r--p 0001b000 a14:3844c 144117304739767344     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/sip.so
+7fe243c28000-7fe243c2a000 rw-p 0001c000 a14:3844c 144117304739767344     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/sip.so
+7fe243c2a000-7fe243c83000 r-xp 00000000 a14:3844c 144117304739777437     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/backends/_backend_agg.cpython-36m-x86_64-linux-gnu.so
+7fe243c83000-7fe243e82000 ---p 00059000 a14:3844c 144117304739777437     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/backends/_backend_agg.cpython-36m-x86_64-linux-gnu.so
+7fe243e82000-7fe243e84000 rw-p 00058000 a14:3844c 144117304739777437     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/backends/_backend_agg.cpython-36m-x86_64-linux-gnu.so
+7fe243e84000-7fe243f85000 rw-p 00000000 00:00 0 
+7fe243f85000-7fe243fa6000 r-xp 00000000 a14:3844c 144117312725728054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/nexrad_interpolate.cpython-36m-x86_64-linux-gnu.so
+7fe243fa6000-7fe2441a6000 ---p 00021000 a14:3844c 144117312725728054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/nexrad_interpolate.cpython-36m-x86_64-linux-gnu.so
+7fe2441a6000-7fe2441a8000 rw-p 00021000 a14:3844c 144117312725728054     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/nexrad_interpolate.cpython-36m-x86_64-linux-gnu.so
+7fe2441a8000-7fe2441a9000 rw-p 00000000 00:00 0 
+7fe2441a9000-7fe2441ad000 r-xp 00000000 a14:3844c 144117304739764546     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+7fe2441ad000-7fe2443ad000 ---p 00004000 a14:3844c 144117304739764546     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+7fe2443ad000-7fe2443af000 rw-p 00004000 a14:3844c 144117304739764546     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+7fe2443af000-7fe2443ef000 rw-p 00000000 00:00 0 
+7fe2443ef000-7fe244410000 r-xp 00000000 a14:3844c 144117304739769604     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_hausdorff.cpython-36m-x86_64-linux-gnu.so
+7fe244410000-7fe24460f000 ---p 00021000 a14:3844c 144117304739769604     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_hausdorff.cpython-36m-x86_64-linux-gnu.so
+7fe24460f000-7fe244613000 rw-p 00020000 a14:3844c 144117304739769604     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_hausdorff.cpython-36m-x86_64-linux-gnu.so
+7fe244613000-7fe244627000 r-xp 00000000 a14:3844c 144117304739769603     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_distance_wrap.cpython-36m-x86_64-linux-gnu.so
+7fe244627000-7fe244827000 ---p 00014000 a14:3844c 144117304739769603     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_distance_wrap.cpython-36m-x86_64-linux-gnu.so
+7fe244827000-7fe244828000 rw-p 00014000 a14:3844c 144117304739769603     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_distance_wrap.cpython-36m-x86_64-linux-gnu.so
+7fe244828000-7fe244849000 r-xp 00000000 a14:3844c 144117304739769608     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_voronoi.cpython-36m-x86_64-linux-gnu.so
+7fe244849000-7fe244a48000 ---p 00021000 a14:3844c 144117304739769608     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_voronoi.cpython-36m-x86_64-linux-gnu.so
+7fe244a48000-7fe244a4c000 rw-p 00020000 a14:3844c 144117304739769608     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/_voronoi.cpython-36m-x86_64-linux-gnu.so
+7fe244a4c000-7fe244a8c000 rw-p 00000000 00:00 0 
+7fe244a8c000-7fe244b58000 r-xp 00000000 a14:3844c 144117304739769612     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/qhull.cpython-36m-x86_64-linux-gnu.so
+7fe244b58000-7fe244d58000 ---p 000cc000 a14:3844c 144117304739769612     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/qhull.cpython-36m-x86_64-linux-gnu.so
+7fe244d58000-7fe244d67000 rw-p 000cc000 a14:3844c 144117304739769612     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/qhull.cpython-36m-x86_64-linux-gnu.so
+7fe244d67000-7fe244d68000 rw-p 00000000 00:00 0 
+7fe244d68000-7fe244df1000 r-xp 00000000 a14:3844c 144117304739769609     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe244df1000-7fe244ff1000 ---p 00089000 a14:3844c 144117304739769609     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe244ff1000-7fe244ffa000 rw-p 00089000 a14:3844c 144117304739769609     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/spatial/ckdtree.cpython-36m-x86_64-linux-gnu.so
+7fe244ffa000-7fe244ffb000 rw-p 00000000 00:00 0 
+7fe244ffb000-7fe245041000 r-xp 00000000 a14:3844c 144117304739768631     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/interpnd.cpython-36m-x86_64-linux-gnu.so
+7fe245041000-7fe245241000 ---p 00046000 a14:3844c 144117304739768631     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/interpnd.cpython-36m-x86_64-linux-gnu.so
+7fe245241000-7fe245247000 rw-p 00046000 a14:3844c 144117304739768631     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/interpnd.cpython-36m-x86_64-linux-gnu.so
+7fe245247000-7fe245248000 rw-p 00000000 00:00 0 
+7fe245248000-7fe245290000 r-xp 00000000 a14:3844c 144117304739768627     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_ppoly.cpython-36m-x86_64-linux-gnu.so
+7fe245290000-7fe245490000 ---p 00048000 a14:3844c 144117304739768627     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_ppoly.cpython-36m-x86_64-linux-gnu.so
+7fe245490000-7fe245496000 rw-p 00048000 a14:3844c 144117304739768627     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_ppoly.cpython-36m-x86_64-linux-gnu.so
+7fe245496000-7fe245497000 rw-p 00000000 00:00 0 
+7fe245497000-7fe2454ca000 r-xp 00000000 a14:3844c 144117304739768620     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_bspl.cpython-36m-x86_64-linux-gnu.so
+7fe2454ca000-7fe2456c9000 ---p 00033000 a14:3844c 144117304739768620     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_bspl.cpython-36m-x86_64-linux-gnu.so
+7fe2456c9000-7fe2456cf000 rw-p 00032000 a14:3844c 144117304739768620     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_bspl.cpython-36m-x86_64-linux-gnu.so
+7fe2456cf000-7fe245710000 rw-p 00000000 00:00 0 
+7fe245710000-7fe245780000 r-xp 00000000 a14:3844c 144117304739768628     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/dfitpack.cpython-36m-x86_64-linux-gnu.so
+7fe245780000-7fe245980000 ---p 00070000 a14:3844c 144117304739768628     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/dfitpack.cpython-36m-x86_64-linux-gnu.so
+7fe245980000-7fe245987000 rw-p 00070000 a14:3844c 144117304739768628     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/dfitpack.cpython-36m-x86_64-linux-gnu.so
+7fe245987000-7fe2459c6000 r-xp 00000000 a14:3844c 144117304739768623     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_fitpack.cpython-36m-x86_64-linux-gnu.so
+7fe2459c6000-7fe245bc5000 ---p 0003f000 a14:3844c 144117304739768623     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_fitpack.cpython-36m-x86_64-linux-gnu.so
+7fe245bc5000-7fe245bc6000 rw-p 0003e000 a14:3844c 144117304739768623     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/interpolate/_fitpack.cpython-36m-x86_64-linux-gnu.so
+7fe245bc6000-7fe245bd0000 r-xp 00000000 a14:3844c 144117304739769244     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_nnls.cpython-36m-x86_64-linux-gnu.so
+7fe245bd0000-7fe245dd0000 ---p 0000a000 a14:3844c 144117304739769244     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_nnls.cpython-36m-x86_64-linux-gnu.so
+7fe245dd0000-7fe245dd1000 rw-p 0000a000 a14:3844c 144117304739769244     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_nnls.cpython-36m-x86_64-linux-gnu.so
+7fe245dd1000-7fe245dd4000 r-xp 00000000 a14:3844c 144117304739769253     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_zeros.cpython-36m-x86_64-linux-gnu.so
+7fe245dd4000-7fe245fd3000 ---p 00003000 a14:3844c 144117304739769253     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_zeros.cpython-36m-x86_64-linux-gnu.so
+7fe245fd3000-7fe245fd4000 rw-p 00002000 a14:3844c 144117304739769253     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_zeros.cpython-36m-x86_64-linux-gnu.so
+7fe245fd4000-7fe246014000 rw-p 00000000 00:00 0 
+7fe246014000-7fe246033000 r-xp 00000000 a14:3844c 144117304739769236     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lsq/givens_elimination.cpython-36m-x86_64-linux-gnu.so
+7fe246033000-7fe246233000 ---p 0001f000 a14:3844c 144117304739769236     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lsq/givens_elimination.cpython-36m-x86_64-linux-gnu.so
+7fe246233000-7fe246236000 rw-p 0001f000 a14:3844c 144117304739769236     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lsq/givens_elimination.cpython-36m-x86_64-linux-gnu.so
+7fe246236000-7fe246258000 r-xp 00000000 a14:3844c 144117304739769217     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_group_columns.cpython-36m-x86_64-linux-gnu.so
+7fe246258000-7fe246457000 ---p 00022000 a14:3844c 144117304739769217     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_group_columns.cpython-36m-x86_64-linux-gnu.so
+7fe246457000-7fe24645b000 rw-p 00021000 a14:3844c 144117304739769217     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_group_columns.cpython-36m-x86_64-linux-gnu.so
+7fe24645b000-7fe246482000 r-xp 00000000 a14:3844c 144117304739769243     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_minpack.cpython-36m-x86_64-linux-gnu.so
+7fe246482000-7fe246682000 ---p 00027000 a14:3844c 144117304739769243     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_minpack.cpython-36m-x86_64-linux-gnu.so
+7fe246682000-7fe246683000 rw-p 00027000 a14:3844c 144117304739769243     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_minpack.cpython-36m-x86_64-linux-gnu.so
+7fe246683000-7fe24669b000 r-xp 00000000 a14:3844c 144117304739769247     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_slsqp.cpython-36m-x86_64-linux-gnu.so
+7fe24669b000-7fe24689b000 ---p 00018000 a14:3844c 144117304739769247     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_slsqp.cpython-36m-x86_64-linux-gnu.so
+7fe24689b000-7fe24689c000 rw-p 00018000 a14:3844c 144117304739769247     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_slsqp.cpython-36m-x86_64-linux-gnu.so
+7fe24689c000-7fe2468b9000 r-xp 00000000 a14:3844c 144117304739769215     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_cobyla.cpython-36m-x86_64-linux-gnu.so
+7fe2468b9000-7fe246ab9000 ---p 0001d000 a14:3844c 144117304739769215     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_cobyla.cpython-36m-x86_64-linux-gnu.so
+7fe246ab9000-7fe246aba000 rw-p 0001d000 a14:3844c 144117304739769215     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_cobyla.cpython-36m-x86_64-linux-gnu.so
+7fe246aba000-7fe246ac4000 r-xp 00000000 a14:3844c 144117304739769259     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/moduleTNC.cpython-36m-x86_64-linux-gnu.so
+7fe246ac4000-7fe246cc3000 ---p 0000a000 a14:3844c 144117304739769259     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/moduleTNC.cpython-36m-x86_64-linux-gnu.so
+7fe246cc3000-7fe246cc4000 rw-p 00009000 a14:3844c 144117304739769259     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/moduleTNC.cpython-36m-x86_64-linux-gnu.so
+7fe246cc4000-7fe246ce1000 r-xp 00000000 a14:3844c 144117304739769219     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lbfgsb.cpython-36m-x86_64-linux-gnu.so
+7fe246ce1000-7fe246ee1000 ---p 0001d000 a14:3844c 144117304739769219     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lbfgsb.cpython-36m-x86_64-linux-gnu.so
+7fe246ee1000-7fe246ee2000 rw-p 0001d000 a14:3844c 144117304739769219     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/_lbfgsb.cpython-36m-x86_64-linux-gnu.so
+7fe246ee2000-7fe246f22000 rw-p 00000000 00:00 0 
+7fe246f22000-7fe246f2b000 r-xp 00000000 a14:3844c 144117304739769258     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/minpack2.cpython-36m-x86_64-linux-gnu.so
+7fe246f2b000-7fe24712b000 ---p 00009000 a14:3844c 144117304739769258     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/minpack2.cpython-36m-x86_64-linux-gnu.so
+7fe24712b000-7fe24712c000 rw-p 00009000 a14:3844c 144117304739769258     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/optimize/minpack2.cpython-36m-x86_64-linux-gnu.so
+7fe24712c000-7fe24716c000 rw-p 00000000 00:00 0 
+7fe24716c000-7fe2471fb000 r-xp 00000000 a14:3844c 144117304739769501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/eigen/arpack/_arpack.cpython-36m-x86_64-linux-gnu.so
+7fe2471fb000-7fe2473fb000 ---p 0008f000 a14:3844c 144117304739769501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/eigen/arpack/_arpack.cpython-36m-x86_64-linux-gnu.so
+7fe2473fb000-7fe247407000 rw-p 0008f000 a14:3844c 144117304739769501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/eigen/arpack/_arpack.cpython-36m-x86_64-linux-gnu.so
+7fe247407000-7fe24745d000 r-xp 00000000 a14:3844c 144117304739769483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/dsolve/_superlu.cpython-36m-x86_64-linux-gnu.so
+7fe24745d000-7fe24765c000 ---p 00056000 a14:3844c 144117304739769483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/dsolve/_superlu.cpython-36m-x86_64-linux-gnu.so
+7fe24765c000-7fe24765e000 rw-p 00055000 a14:3844c 144117304739769483     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/dsolve/_superlu.cpython-36m-x86_64-linux-gnu.so
+7fe24765e000-7fe24769e000 rw-p 00000000 00:00 0 
+7fe24769e000-7fe2476d3000 r-xp 00000000 a14:3844c 144117304739769533     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/isolve/_iterative.cpython-36m-x86_64-linux-gnu.so
+7fe2476d3000-7fe2478d3000 ---p 00035000 a14:3844c 144117304739769533     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/isolve/_iterative.cpython-36m-x86_64-linux-gnu.so
+7fe2478d3000-7fe2478db000 rw-p 00035000 a14:3844c 144117304739769533     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/linalg/isolve/_iterative.cpython-36m-x86_64-linux-gnu.so
+7fe2478db000-7fe2478dc000 rw-p 00000000 00:00 0 
+7fe2478dc000-7fe24791c000 r-xp 00000000 a14:3844c 144117304739769431     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_reordering.cpython-36m-x86_64-linux-gnu.so
+7fe24791c000-7fe247b1c000 ---p 00040000 a14:3844c 144117304739769431     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_reordering.cpython-36m-x86_64-linux-gnu.so
+7fe247b1c000-7fe247b22000 rw-p 00040000 a14:3844c 144117304739769431     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_reordering.cpython-36m-x86_64-linux-gnu.so
+7fe247b22000-7fe247b45000 r-xp 00000000 a14:3844c 144117304739769430     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+7fe247b45000-7fe247d44000 ---p 00023000 a14:3844c 144117304739769430     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+7fe247d44000-7fe247d49000 rw-p 00022000 a14:3844c 144117304739769430     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-36m-x86_64-linux-gnu.so
+7fe247d49000-7fe247d60000 r-xp 00000000 a14:3844c 144117304739769434     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_traversal.cpython-36m-x86_64-linux-gnu.so
+7fe247d60000-7fe247f60000 ---p 00017000 a14:3844c 144117304739769434     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_traversal.cpython-36m-x86_64-linux-gnu.so
+7fe247f60000-7fe247f65000 rw-p 00017000 a14:3844c 144117304739769434     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_traversal.cpython-36m-x86_64-linux-gnu.so
+7fe247f65000-7fe247f66000 rw-p 00000000 00:00 0 
+7fe247f66000-7fe247f81000 r-xp 00000000 a14:3844c 144117304739769433     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_tools.cpython-36m-x86_64-linux-gnu.so
+7fe247f81000-7fe248181000 ---p 0001b000 a14:3844c 144117304739769433     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_tools.cpython-36m-x86_64-linux-gnu.so
+7fe248181000-7fe248186000 rw-p 0001b000 a14:3844c 144117304739769433     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_tools.cpython-36m-x86_64-linux-gnu.so
+7fe248186000-7fe2481ba000 r-xp 00000000 a14:3844c 144117304739769432     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-36m-x86_64-linux-gnu.so
+7fe2481ba000-7fe2483b9000 ---p 00034000 a14:3844c 144117304739769432     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-36m-x86_64-linux-gnu.so
+7fe2483b9000-7fe2483c0000 rw-p 00033000 a14:3844c 144117304739769432     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-36m-x86_64-linux-gnu.so
+7fe2483c0000-7fe248400000 rw-p 00000000 00:00 0 
+7fe248400000-7fe248464000 r-xp 00000000 a14:3844c 144117304739769411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_csparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248464000-7fe248663000 ---p 00064000 a14:3844c 144117304739769411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_csparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248663000-7fe248669000 rw-p 00063000 a14:3844c 144117304739769411     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_csparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248669000-7fe24866a000 rw-p 00000000 00:00 0 
+7fe24866a000-7fe248a1d000 r-xp 00000000 a14:3844c 144117304739769413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_sparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248a1d000-7fe248c1c000 ---p 003b3000 a14:3844c 144117304739769413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_sparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248c1c000-7fe248c23000 rw-p 003b2000 a14:3844c 144117304739769413     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/sparse/_sparsetools.cpython-36m-x86_64-linux-gnu.so
+7fe248c23000-7fe248c63000 rw-p 00000000 00:00 0 
+7fe248c63000-7fe248c9a000 r-xp 00000000 a14:3844c 144117304739768581     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/lsoda.cpython-36m-x86_64-linux-gnu.so
+7fe248c9a000-7fe248e9a000 ---p 00037000 a14:3844c 144117304739768581     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/lsoda.cpython-36m-x86_64-linux-gnu.so
+7fe248e9a000-7fe248e9c000 rw-p 00037000 a14:3844c 144117304739768581     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/lsoda.cpython-36m-x86_64-linux-gnu.so
+7fe248e9c000-7fe248ebc000 r-xp 00000000 a14:3844c 144117304739768575     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_dop.cpython-36m-x86_64-linux-gnu.so
+7fe248ebc000-7fe2490bb000 ---p 00020000 a14:3844c 144117304739768575     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_dop.cpython-36m-x86_64-linux-gnu.so
+7fe2490bb000-7fe2490bd000 rw-p 0001f000 a14:3844c 144117304739768575     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_dop.cpython-36m-x86_64-linux-gnu.so
+7fe2490bd000-7fe2490f6000 r-xp 00000000 a14:3844c 144117304739768602     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/vode.cpython-36m-x86_64-linux-gnu.so
+7fe2490f6000-7fe2492f5000 ---p 00039000 a14:3844c 144117304739768602     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/vode.cpython-36m-x86_64-linux-gnu.so
+7fe2492f5000-7fe2492f7000 rw-p 00038000 a14:3844c 144117304739768602     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/vode.cpython-36m-x86_64-linux-gnu.so
+7fe2492f7000-7fe2492f8000 rw-p 00000000 00:00 0 
+7fe2492f8000-7fe249316000 r-xp 00000000 a14:3844c 144117304739768578     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_quadpack.cpython-36m-x86_64-linux-gnu.so
+7fe249316000-7fe249516000 ---p 0001e000 a14:3844c 144117304739768578     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_quadpack.cpython-36m-x86_64-linux-gnu.so
+7fe249516000-7fe249517000 rw-p 0001e000 a14:3844c 144117304739768578     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_quadpack.cpython-36m-x86_64-linux-gnu.so
+7fe249517000-7fe24954a000 r-xp 00000000 a14:3844c 144117304739768577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_odepack.cpython-36m-x86_64-linux-gnu.so
+7fe24954a000-7fe249749000 ---p 00033000 a14:3844c 144117304739768577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_odepack.cpython-36m-x86_64-linux-gnu.so
+7fe249749000-7fe24974b000 rw-p 00032000 a14:3844c 144117304739768577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/integrate/_odepack.cpython-36m-x86_64-linux-gnu.so
+7fe24974b000-7fe24978b000 rw-p 00000000 00:00 0 
+7fe24978b000-7fe24979b000 r-xp 00000000 a14:3844c 144117304739769680     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+7fe24979b000-7fe24999a000 ---p 00010000 a14:3844c 144117304739769680     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+7fe24999a000-7fe24999c000 rw-p 0000f000 a14:3844c 144117304739769680     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ellip_harm_2.cpython-36m-x86_64-linux-gnu.so
+7fe24999c000-7fe2499a2000 r-xp 00000000 a14:3844c 144117304739769678     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_comb.cpython-36m-x86_64-linux-gnu.so
+7fe2499a2000-7fe249ba1000 ---p 00006000 a14:3844c 144117304739769678     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_comb.cpython-36m-x86_64-linux-gnu.so
+7fe249ba1000-7fe249ba2000 rw-p 00005000 a14:3844c 144117304739769678     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_comb.cpython-36m-x86_64-linux-gnu.so
+7fe249ba2000-7fe249c6f000 r-xp 00000000 a14:3844c 144117304739769713     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/specfun.cpython-36m-x86_64-linux-gnu.so
+7fe249c6f000-7fe249e6f000 ---p 000cd000 a14:3844c 144117304739769713     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/specfun.cpython-36m-x86_64-linux-gnu.so
+7fe249e6f000-7fe249e77000 rw-p 000cd000 a14:3844c 144117304739769713     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/specfun.cpython-36m-x86_64-linux-gnu.so
+7fe249e77000-7fe249eb7000 rw-p 00000000 00:00 0 
+7fe249eb7000-7fe249ed0000 r-xp 00000000 a14:3844c 144117304739769703     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+7fe249ed0000-7fe24a0cf000 ---p 00019000 a14:3844c 144117304739769703     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+7fe24a0cf000-7fe24a0d1000 rw-p 00018000 a14:3844c 144117304739769703     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs_cxx.cpython-36m-x86_64-linux-gnu.so
+7fe24a0d1000-7fe24a252000 r-xp 00000000 a14:3844c 144117304739769702     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs.cpython-36m-x86_64-linux-gnu.so
+7fe24a252000-7fe24a452000 ---p 00181000 a14:3844c 144117304739769702     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs.cpython-36m-x86_64-linux-gnu.so
+7fe24a452000-7fe24a47f000 rw-p 00181000 a14:3844c 144117304739769702     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/special/_ufuncs.cpython-36m-x86_64-linux-gnu.so
+7fe24a47f000-7fe24a487000 rw-p 00000000 00:00 0 
+7fe24a487000-7fe24a50d000 r-xp 00000000 a14:3844c 144117304739769016     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_lapack.cpython-36m-x86_64-linux-gnu.so
+7fe24a50d000-7fe24a70c000 ---p 00086000 a14:3844c 144117304739769016     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_lapack.cpython-36m-x86_64-linux-gnu.so
+7fe24a70c000-7fe24a713000 rw-p 00085000 a14:3844c 144117304739769016     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_lapack.cpython-36m-x86_64-linux-gnu.so
+7fe24a713000-7fe24a745000 r-xp 00000000 a14:3844c 144117304739769014     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_blas.cpython-36m-x86_64-linux-gnu.so
+7fe24a745000-7fe24a944000 ---p 00032000 a14:3844c 144117304739769014     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_blas.cpython-36m-x86_64-linux-gnu.so
+7fe24a944000-7fe24a948000 rw-p 00031000 a14:3844c 144117304739769014     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/cython_blas.cpython-36m-x86_64-linux-gnu.so
+7fe24a948000-7fe24a949000 rw-p 00000000 00:00 0 
+7fe24a949000-7fe24a988000 r-xp 00000000 a14:3844c 144117304739768998     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_decomp_update.cpython-36m-x86_64-linux-gnu.so
+7fe24a988000-7fe24ab88000 ---p 0003f000 a14:3844c 144117304739768998     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_decomp_update.cpython-36m-x86_64-linux-gnu.so
+7fe24ab88000-7fe24ab92000 rw-p 0003f000 a14:3844c 144117304739768998     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_decomp_update.cpython-36m-x86_64-linux-gnu.so
+7fe24ab92000-7fe24abd2000 rw-p 00000000 00:00 0 
+7fe24abd2000-7fe24abfd000 r-xp 00000000 a14:3844c 144117304739769008     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+7fe24abfd000-7fe24adfc000 ---p 0002b000 a14:3844c 144117304739769008     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+7fe24adfc000-7fe24ae01000 rw-p 0002a000 a14:3844c 144117304739769008     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_solve_toeplitz.cpython-36m-x86_64-linux-gnu.so
+7fe24ae01000-7fe24ae0d000 r-xp 00000000 a14:3844c 144117304739769002     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flinalg.cpython-36m-x86_64-linux-gnu.so
+7fe24ae0d000-7fe24b00d000 ---p 0000c000 a14:3844c 144117304739769002     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flinalg.cpython-36m-x86_64-linux-gnu.so
+7fe24b00d000-7fe24b010000 rw-p 0000c000 a14:3844c 144117304739769002     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flinalg.cpython-36m-x86_64-linux-gnu.so
+7fe24b010000-7fe24b050000 rw-p 00000000 00:00 0 
+7fe24b050000-7fe24b111000 r-xp 00000000 a14:3844c 144117304739769001     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flapack.cpython-36m-x86_64-linux-gnu.so
+7fe24b111000-7fe24b311000 ---p 000c1000 a14:3844c 144117304739769001     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flapack.cpython-36m-x86_64-linux-gnu.so
+7fe24b311000-7fe24b359000 rw-p 000c1000 a14:3844c 144117304739769001     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_flapack.cpython-36m-x86_64-linux-gnu.so
+7fe24b359000-7fe24b458000 r-xp 00000000 a14:3844c 144117304739759273     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgfortran.so.3.0.0
+7fe24b458000-7fe24b658000 ---p 000ff000 a14:3844c 144117304739759273     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgfortran.so.3.0.0
+7fe24b658000-7fe24b65a000 rw-p 000ff000 a14:3844c 144117304739759273     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgfortran.so.3.0.0
+7fe24b65a000-7fe24b662000 rw-p 00102000 a14:3844c 144117304739759273     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgfortran.so.3.0.0
+7fe24b662000-7fe24b6aa000 r-xp 00000000 a14:3844c 144117304739769000     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so
+7fe24b6aa000-7fe24b8a9000 ---p 00048000 a14:3844c 144117304739769000     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so
+7fe24b8a9000-7fe24b8c3000 rw-p 00047000 a14:3844c 144117304739769000     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/linalg/_fblas.cpython-36m-x86_64-linux-gnu.so
+7fe24b8c3000-7fe24b8d1000 r-xp 00000000 a14:3844c 144117304739768462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/_lib/_ccallback_c.cpython-36m-x86_64-linux-gnu.so
+7fe24b8d1000-7fe24bad0000 ---p 0000e000 a14:3844c 144117304739768462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/_lib/_ccallback_c.cpython-36m-x86_64-linux-gnu.so
+7fe24bad0000-7fe24bad2000 rw-p 0000d000 a14:3844c 144117304739768462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/scipy/_lib/_ccallback_c.cpython-36m-x86_64-linux-gnu.so
+7fe24bad2000-7fe24bb12000 rw-p 00000000 00:00 0 
+7fe24bb12000-7fe24bba1000 r-xp 00000000 a14:3844c 144117312725728044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_sigmetfile.cpython-36m-x86_64-linux-gnu.so
+7fe24bba1000-7fe24bda0000 ---p 0008f000 a14:3844c 144117312725728044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_sigmetfile.cpython-36m-x86_64-linux-gnu.so
+7fe24bda0000-7fe24bdab000 rw-p 0008e000 a14:3844c 144117312725728044     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_sigmetfile.cpython-36m-x86_64-linux-gnu.so
+7fe24bdab000-7fe24bded000 rw-p 00000000 00:00 0 
+7fe24bded000-7fe24be40000 r-xp 00000000 a14:3844c 144117312725727934     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/librsl.so.1.0.49
+7fe24be40000-7fe24c03f000 ---p 00053000 a14:3844c 144117312725727934     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/librsl.so.1.0.49
+7fe24c03f000-7fe24c044000 rw-p 00052000 a14:3844c 144117312725727934     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/librsl.so.1.0.49
+7fe24c044000-7fe24c234000 rw-p 00000000 00:00 0 
+7fe24c234000-7fe24c25d000 r-xp 00000000 a14:3844c 144117312725728034     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_rsl_interface.cpython-36m-x86_64-linux-gnu.so
+7fe24c25d000-7fe24c45d000 ---p 00029000 a14:3844c 144117312725728034     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_rsl_interface.cpython-36m-x86_64-linux-gnu.so
+7fe24c45d000-7fe24c463000 rw-p 00029000 a14:3844c 144117312725728034     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/io/_rsl_interface.cpython-36m-x86_64-linux-gnu.so
+7fe24c463000-7fe24c6e3000 rw-p 00000000 00:00 0 
+7fe24c6e3000-7fe24c88b000 r-xp 00000000 a14:3844c 144117304739781974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos-3.5.0.so
+7fe24c88b000-7fe24ca8a000 ---p 001a8000 a14:3844c 144117304739781974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos-3.5.0.so
+7fe24ca8a000-7fe24ca9b000 rw-p 001a7000 a14:3844c 144117304739781974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos-3.5.0.so
+7fe24ca9b000-7fe24ca9c000 rw-p 00000000 00:00 0 
+7fe24ca9c000-7fe24cac6000 r-xp 00000000 a14:3844c 144117304739781982     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos_c.so.1.9.0
+7fe24cac6000-7fe24ccc6000 ---p 0002a000 a14:3844c 144117304739781982     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos_c.so.1.9.0
+7fe24ccc6000-7fe24ccc8000 rw-p 0002a000 a14:3844c 144117304739781982     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgeos_c.so.1.9.0
+7fe24ccc8000-7fe24ccd5000 r-xp 00000000 a14:3844c 144117312725726093     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/_geoslib.cpython-36m-x86_64-linux-gnu.so
+7fe24ccd5000-7fe24ced4000 ---p 0000d000 a14:3844c 144117312725726093     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/_geoslib.cpython-36m-x86_64-linux-gnu.so
+7fe24ced4000-7fe24ced6000 rw-p 0000c000 a14:3844c 144117312725726093     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/_geoslib.cpython-36m-x86_64-linux-gnu.so
+7fe24ced6000-7fe24cfd6000 rw-p 00000000 00:00 0 
+7fe24cfd6000-7fe24d031000 r-xp 00000000 a14:3844c 144117304739777382     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_qhull.cpython-36m-x86_64-linux-gnu.so
+7fe24d031000-7fe24d230000 ---p 0005b000 a14:3844c 144117304739777382     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_qhull.cpython-36m-x86_64-linux-gnu.so
+7fe24d230000-7fe24d232000 rw-p 0005a000 a14:3844c 144117304739777382     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_qhull.cpython-36m-x86_64-linux-gnu.so
+7fe24d232000-7fe24d234000 rw-p 00000000 00:00 0 
+7fe24d234000-7fe24d250000 r-xp 00000000 a14:3844c 144117304739777383     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_tri.cpython-36m-x86_64-linux-gnu.so
+7fe24d250000-7fe24d44f000 ---p 0001c000 a14:3844c 144117304739777383     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_tri.cpython-36m-x86_64-linux-gnu.so
+7fe24d44f000-7fe24d450000 rw-p 0001b000 a14:3844c 144117304739777383     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_tri.cpython-36m-x86_64-linux-gnu.so
+7fe24d450000-7fe24d491000 rw-p 00000000 00:00 0 
+7fe24d491000-7fe24d4cb000 r-xp 00000000 a14:3844c 144117304739777377     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_image.cpython-36m-x86_64-linux-gnu.so
+7fe24d4cb000-7fe24d6ca000 ---p 0003a000 a14:3844c 144117304739777377     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_image.cpython-36m-x86_64-linux-gnu.so
+7fe24d6ca000-7fe24d6cb000 rw-p 00039000 a14:3844c 144117304739777377     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_image.cpython-36m-x86_64-linux-gnu.so
+7fe24d6cb000-7fe24d78c000 rw-p 00000000 00:00 0 
+7fe24d78c000-7fe24d7cd000 r-xp 00000000 a14:3844c 144117304739763029     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpng16.so.16.27.0
+7fe24d7cd000-7fe24d9cd000 ---p 00041000 a14:3844c 144117304739763029     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpng16.so.16.27.0
+7fe24d9cd000-7fe24d9ce000 rw-p 00041000 a14:3844c 144117304739763029     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpng16.so.16.27.0
+7fe24d9ce000-7fe24d9d5000 r-xp 00000000 a14:3844c 144117304739777380     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_png.cpython-36m-x86_64-linux-gnu.so
+7fe24d9d5000-7fe24dbd4000 ---p 00007000 a14:3844c 144117304739777380     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_png.cpython-36m-x86_64-linux-gnu.so
+7fe24dbd4000-7fe24dbd5000 rw-p 00006000 a14:3844c 144117304739777380     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_png.cpython-36m-x86_64-linux-gnu.so
+7fe24dbd5000-7fe24dc94000 r-xp 00000000 a14:3844c 144117304739764547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7fe24dc94000-7fe24de93000 ---p 000bf000 a14:3844c 144117304739764547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7fe24de93000-7fe24deaf000 rw-p 000be000 a14:3844c 144117304739764547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+7fe24deaf000-7fe24dfaf000 rw-p 00000000 00:00 0 
+7fe24dfaf000-7fe24e043000 r-xp 00000000 a14:3844c 144117304739765208     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libfreetype.so.6.11.4
+7fe24e043000-7fe24e242000 ---p 00094000 a14:3844c 144117304739765208     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libfreetype.so.6.11.4
+7fe24e242000-7fe24e248000 r--p 00093000 a14:3844c 144117304739765208     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libfreetype.so.6.11.4
+7fe24e248000-7fe24e249000 rw-p 00099000 a14:3844c 144117304739765208     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libfreetype.so.6.11.4
+7fe24e249000-7fe24e25c000 r-xp 00000000 a14:3844c 144117304739777547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/ft2font.cpython-36m-x86_64-linux-gnu.so
+7fe24e25c000-7fe24e45c000 ---p 00013000 a14:3844c 144117304739777547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/ft2font.cpython-36m-x86_64-linux-gnu.so
+7fe24e45c000-7fe24e45e000 rw-p 00013000 a14:3844c 144117304739777547     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/ft2font.cpython-36m-x86_64-linux-gnu.so
+7fe24e45e000-7fe24e4de000 rw-p 00000000 00:00 0 
+7fe24e4de000-7fe24e52a000 r-xp 00000000 a14:3844c 144117304739764502     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+7fe24e52a000-7fe24e72a000 ---p 0004c000 a14:3844c 144117304739764502     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+7fe24e72a000-7fe24e733000 rw-p 0004c000 a14:3844c 144117304739764502     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+7fe24e733000-7fe24e740000 r-xp 00000000 a14:3844c 144117304739777375     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_contour.cpython-36m-x86_64-linux-gnu.so
+7fe24e740000-7fe24e940000 ---p 0000d000 a14:3844c 144117304739777375     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_contour.cpython-36m-x86_64-linux-gnu.so
+7fe24e940000-7fe24e941000 rw-p 0000d000 a14:3844c 144117304739777375     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_contour.cpython-36m-x86_64-linux-gnu.so
+7fe24e941000-7fe24e947000 r-xp 00000000 a14:3844c 144117304739777373     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_cntr.cpython-36m-x86_64-linux-gnu.so
+7fe24e947000-7fe24eb46000 ---p 00006000 a14:3844c 144117304739777373     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_cntr.cpython-36m-x86_64-linux-gnu.so
+7fe24eb46000-7fe24eb47000 rw-p 00005000 a14:3844c 144117304739777373     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_cntr.cpython-36m-x86_64-linux-gnu.so
+7fe24eb47000-7fe24ec47000 rw-p 00000000 00:00 0 
+7fe24ec47000-7fe24ec4d000 r-xp 00000000 a14:3844c 144117304739764496     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so
+7fe24ec4d000-7fe24ee4c000 ---p 00006000 a14:3844c 144117304739764496     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so
+7fe24ee4c000-7fe24ee4f000 rw-p 00005000 a14:3844c 144117304739764496     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so
+7fe24ee4f000-7fe24eecf000 rw-p 00000000 00:00 0 
+7fe24eecf000-7fe24f03a000 r-xp 00000000 a14:3844c 144117304739759262     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libstdc++.so.6.0.21
+7fe24f03a000-7fe24f23a000 ---p 0016b000 a14:3844c 144117304739759262     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libstdc++.so.6.0.21
+7fe24f23a000-7fe24f244000 r--p 0016b000 a14:3844c 144117304739759262     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libstdc++.so.6.0.21
+7fe24f244000-7fe24f246000 rw-p 00175000 a14:3844c 144117304739759262     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libstdc++.so.6.0.21
+7fe24f246000-7fe24f24a000 rw-p 00000000 00:00 0 
+7fe24f24a000-7fe24f28b000 rw-p 00178000 a14:3844c 144117304739759262     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libstdc++.so.6.0.21
+7fe24f28b000-7fe24f2ba000 r-xp 00000000 a14:3844c 144117304739777379     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_path.cpython-36m-x86_64-linux-gnu.so
+7fe24f2ba000-7fe24f4b9000 ---p 0002f000 a14:3844c 144117304739777379     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_path.cpython-36m-x86_64-linux-gnu.so
+7fe24f4b9000-7fe24f4bb000 rw-p 0002e000 a14:3844c 144117304739777379     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/matplotlib/_path.cpython-36m-x86_64-linux-gnu.so
+7fe24f4bb000-7fe24f5bb000 rw-p 00000000 00:00 0 
+7fe24f5bb000-7fe24f5c4000 r-xp 00000000 a14:3844c 144117304739764506     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7fe24f5c4000-7fe24f7c4000 ---p 00009000 a14:3844c 144117304739764506     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7fe24f7c4000-7fe24f7c5000 rw-p 00009000 a14:3844c 144117304739764506     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+7fe24f7c5000-7fe24f805000 rw-p 00000000 00:00 0 
+7fe24f805000-7fe24f81c000 r-xp 00000000 a14:3844c 144117304739764522     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so
+7fe24f81c000-7fe24fa1b000 ---p 00017000 a14:3844c 144117304739764522     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so
+7fe24fa1b000-7fe24fa21000 rw-p 00016000 a14:3844c 144117304739764522     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so
+7fe24fa21000-7fe24fba1000 rw-p 00000000 00:00 0 
+7fe24fbe0000-7fe24fca0000 rw-p 00000000 00:00 0 
+7fe24fca0000-7fe24fca1000 r-xp 00000000 a14:3844c 144117304739764512     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+7fe24fca1000-7fe24fea0000 ---p 00001000 a14:3844c 144117304739764512     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+7fe24fea0000-7fe24fea1000 rw-p 00000000 a14:3844c 144117304739764512     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+7fe24fea1000-7fe24ff21000 rw-p 00000000 00:00 0 
+7fe24ff21000-7fe24ff61000 rw-p 00000000 00:00 0 
+7fe24ff61000-7fe24ff96000 r-xp 00000000 a14:3844c 144117304739764540     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+7fe24ff96000-7fe250195000 ---p 00035000 a14:3844c 144117304739764540     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+7fe250195000-7fe250199000 rw-p 00034000 a14:3844c 144117304739764540     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+7fe250199000-7fe25019c000 r-xp 00000000 a14:3844c 144117304739764514     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+7fe25019c000-7fe25039c000 ---p 00003000 a14:3844c 144117304739764514     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+7fe25039c000-7fe25039d000 rw-p 00003000 a14:3844c 144117304739764514     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+7fe25039d000-7fe2503a2000 r-xp 00000000 a14:3844c 144117304739764531     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+7fe2503a2000-7fe2505a2000 ---p 00005000 a14:3844c 144117304739764531     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+7fe2505a2000-7fe2505a3000 rw-p 00005000 a14:3844c 144117304739764531     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+7fe2505a3000-7fe250963000 rw-p 00000000 00:00 0 
+7fe250963000-7fe2509d8000 r-xp 00000000 a14:3844c 144117304739789398     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyproj/_proj.cpython-36m-x86_64-linux-gnu.so
+7fe2509d8000-7fe250bd7000 ---p 00075000 a14:3844c 144117304739789398     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyproj/_proj.cpython-36m-x86_64-linux-gnu.so
+7fe250bd7000-7fe250bdc000 rw-p 00074000 a14:3844c 144117304739789398     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyproj/_proj.cpython-36m-x86_64-linux-gnu.so
+7fe250bdc000-7fe250c1d000 rw-p 00000000 00:00 0 
+7fe250c1d000-7fe250cb6000 r-xp 00000000 a14:3844c 144117312725726072     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netcdftime/_netcdftime.cpython-36m-x86_64-linux-gnu.so
+7fe250cb6000-7fe250eb6000 ---p 00099000 a14:3844c 144117312725726072     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netcdftime/_netcdftime.cpython-36m-x86_64-linux-gnu.so
+7fe250eb6000-7fe250ebd000 rw-p 00099000 a14:3844c 144117312725726072     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netcdftime/_netcdftime.cpython-36m-x86_64-linux-gnu.so
+7fe250ebd000-7fe250efe000 rw-p 00000000 00:00 0 
+7fe250efe000-7fe250f39000 r-xp 00000000 a14:3844c 144117304739759214     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libjpeg.so.9.2.0
+7fe250f39000-7fe251139000 ---p 0003b000 a14:3844c 144117304739759214     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libjpeg.so.9.2.0
+7fe251139000-7fe25113a000 rw-p 0003b000 a14:3844c 144117304739759214     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libjpeg.so.9.2.0
+7fe25113a000-7fe25119e000 r-xp 00000000 a14:3844c 144117312725725974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcurl.so.4.4.0
+7fe25119e000-7fe25139d000 ---p 00064000 a14:3844c 144117312725725974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcurl.so.4.4.0
+7fe25139d000-7fe2513a0000 rw-p 00063000 a14:3844c 144117312725725974     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcurl.so.4.4.0
+7fe2513a0000-7fe25167b000 r-xp 00000000 a14:3844c 144117312725725994     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5.so.10.2.1
+7fe25167b000-7fe25187b000 ---p 002db000 a14:3844c 144117312725725994     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5.so.10.2.1
+7fe25187b000-7fe251887000 rw-p 002db000 a14:3844c 144117312725725994     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5.so.10.2.1
+7fe251887000-7fe251888000 rw-p 00000000 00:00 0 
+7fe251888000-7fe2518a6000 r-xp 00000000 a14:3844c 144117312725725588     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5_hl.so.10.1.1
+7fe2518a6000-7fe251aa6000 ---p 0001e000 a14:3844c 144117312725725588     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5_hl.so.10.1.1
+7fe251aa6000-7fe251aa7000 rw-p 0001e000 a14:3844c 144117312725725588     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libhdf5_hl.so.10.1.1
+7fe251aa7000-7fe251aa8000 rw-p 00000000 00:00 0 
+7fe251aa8000-7fe251b30000 r-xp 00000000 a14:3844c 144117304739780571     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libdf.so.0.0.0
+7fe251b30000-7fe251d30000 ---p 00088000 a14:3844c 144117304739780571     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libdf.so.0.0.0
+7fe251d30000-7fe251d33000 rw-p 00088000 a14:3844c 144117304739780571     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libdf.so.0.0.0
+7fe251d33000-7fe251d5c000 rw-p 00000000 00:00 0 
+7fe251d5c000-7fe251d86000 r-xp 00000000 a14:3844c 144117304739780567     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmfhdf.so.0.0.0
+7fe251d86000-7fe251f86000 ---p 0002a000 a14:3844c 144117304739780567     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmfhdf.so.0.0.0
+7fe251f86000-7fe251f87000 rw-p 0002a000 a14:3844c 144117304739780567     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmfhdf.so.0.0.0
+7fe251f87000-7fe251f88000 rw-p 00000000 00:00 0 
+7fe251f88000-7fe2520c9000 r-xp 00000000 a14:3844c 144117312725726022     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libnetcdf.so.11.4.0
+7fe2520c9000-7fe2522c8000 ---p 00141000 a14:3844c 144117312725726022     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libnetcdf.so.11.4.0
+7fe2522c8000-7fe25231a000 rw-p 00140000 a14:3844c 144117312725726022     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libnetcdf.so.11.4.0
+7fe25231a000-7fe255329000 rw-p 00000000 00:00 0 
+7fe255329000-7fe255487000 r-xp 00000000 a14:3844c 144117312725726071     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/_netCDF4.cpython-36m-x86_64-linux-gnu.so
+7fe255487000-7fe255686000 ---p 0015e000 a14:3844c 144117312725726071     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/_netCDF4.cpython-36m-x86_64-linux-gnu.so
+7fe255686000-7fe25569d000 rw-p 0015d000 a14:3844c 144117312725726071     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/netCDF4/_netCDF4.cpython-36m-x86_64-linux-gnu.so
+7fe25569d000-7fe255721000 rw-p 00000000 00:00 0 
+7fe255721000-7fe2557e4000 r-xp 00000000 a14:3844c 144117304739766577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+7fe2557e4000-7fe2559e4000 ---p 000c3000 a14:3844c 144117304739766577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+7fe2559e4000-7fe255a08000 rw-p 000c3000 a14:3844c 144117304739766577     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+7fe255a08000-7fe255a4a000 rw-p 00000000 00:00 0 
+7fe255a4a000-7fe255a53000 r-xp 00000000 a14:3844c 144117304739766338     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/fft/fftpack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe255a53000-7fe255c52000 ---p 00009000 a14:3844c 144117304739766338     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/fft/fftpack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe255c52000-7fe255c53000 rw-p 00008000 a14:3844c 144117304739766338     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/fft/fftpack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe255c53000-7fe255c93000 rw-p 00000000 00:00 0 
+7fe255c93000-7fe255cb5000 r-xp 00000000 a14:3844c 144117304739766460     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+7fe255cb5000-7fe255eb4000 ---p 00022000 a14:3844c 144117304739766460     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+7fe255eb4000-7fe255eb6000 rw-p 00021000 a14:3844c 144117304739766460     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+7fe255eb6000-7fe255eb9000 r-xp 00000000 a14:3844c 144117304739766462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe255eb9000-7fe2560b9000 ---p 00003000 a14:3844c 144117304739766462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe2560b9000-7fe2560ba000 rw-p 00003000 a14:3844c 144117304739766462     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+7fe2560ba000-7fe25613a000 rw-p 00000000 00:00 0 
+7fe25613a000-7fe25613d000 r-xp 00000000 a14:3844c 144117304739764515     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+7fe25613d000-7fe25633c000 ---p 00003000 a14:3844c 144117304739764515     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+7fe25633c000-7fe25633d000 rw-p 00002000 a14:3844c 144117304739764515     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+7fe25633d000-7fe25633f000 r-xp 00000000 a14:3844c 144117304739764486     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+7fe25633f000-7fe25653f000 ---p 00002000 a14:3844c 144117304739764486     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+7fe25653f000-7fe256540000 rw-p 00002000 a14:3844c 144117304739764486     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+7fe256540000-7fe256551000 r-xp 00000000 a14:3844c 144117304739764518     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+7fe256551000-7fe256751000 ---p 00011000 a14:3844c 144117304739764518     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+7fe256751000-7fe256753000 rw-p 00011000 a14:3844c 144117304739764518     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+7fe256753000-7fe25675c000 r-xp 00000000 a14:3844c 144117304739764487     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+7fe25675c000-7fe25695b000 ---p 00009000 a14:3844c 144117304739764487     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+7fe25695b000-7fe25695d000 rw-p 00008000 a14:3844c 144117304739764487     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+7fe25695d000-7fe256b69000 r-xp 00000000 a14:3844c 144117312725723141     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcrypto.so.1.0.0
+7fe256b69000-7fe256d69000 ---p 0020c000 a14:3844c 144117312725723141     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcrypto.so.1.0.0
+7fe256d69000-7fe256d90000 rw-p 0020c000 a14:3844c 144117312725723141     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libcrypto.so.1.0.0
+7fe256d90000-7fe256d94000 rw-p 00000000 00:00 0 
+7fe256d94000-7fe256e01000 r-xp 00000000 a14:3844c 144117304739762003     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libssl.so.1.0.0
+7fe256e01000-7fe257000000 ---p 0006d000 a14:3844c 144117304739762003     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libssl.so.1.0.0
+7fe257000000-7fe25700b000 rw-p 0006c000 a14:3844c 144117304739762003     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libssl.so.1.0.0
+7fe25700b000-7fe257010000 r-xp 00000000 a14:3844c 144117304739764504     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+7fe257010000-7fe257210000 ---p 00005000 a14:3844c 144117304739764504     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+7fe257210000-7fe257211000 rw-p 00005000 a14:3844c 144117304739764504     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+7fe257211000-7fe257251000 rw-p 00000000 00:00 0 
+7fe257251000-7fe257253000 r-xp 00000000 a14:3844c 144117304739764534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+7fe257253000-7fe257453000 ---p 00002000 a14:3844c 144117304739764534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+7fe257453000-7fe257454000 rw-p 00002000 a14:3844c 144117304739764534     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+7fe257454000-7fe257478000 r-xp 00000000 a14:3844c 144117304739762542     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/liblzma.so.5.2.2
+7fe257478000-7fe257678000 ---p 00024000 a14:3844c 144117304739762542     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/liblzma.so.5.2.2
+7fe257678000-7fe257679000 rw-p 00024000 a14:3844c 144117304739762542     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/liblzma.so.5.2.2
+7fe257679000-7fe25767f000 r-xp 00000000 a14:3844c 144117304739764508     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+7fe25767f000-7fe25787f000 ---p 00006000 a14:3844c 144117304739764508     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+7fe25787f000-7fe257881000 rw-p 00006000 a14:3844c 144117304739764508     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+7fe257881000-7fe257893000 r-xp 00000000 a14:3844c 144117304739764488     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+7fe257893000-7fe257a92000 ---p 00012000 a14:3844c 144117304739764488     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+7fe257a92000-7fe257a94000 rw-p 00011000 a14:3844c 144117304739764488     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+7fe257a94000-7fe257aaa000 r-xp 00000000 a14:3844c 144117304739762563     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libz.so.1.2.8
+7fe257aaa000-7fe257ca9000 ---p 00016000 a14:3844c 144117304739762563     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libz.so.1.2.8
+7fe257ca9000-7fe257caa000 rw-p 00015000 a14:3844c 144117304739762563     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libz.so.1.2.8
+7fe257caa000-7fe257cb0000 r-xp 00000000 a14:3844c 144117304739764549     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+7fe257cb0000-7fe257eb0000 ---p 00006000 a14:3844c 144117304739764549     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+7fe257eb0000-7fe257eb2000 rw-p 00006000 a14:3844c 144117304739764549     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+7fe257eb2000-7fe258072000 rw-p 00000000 00:00 0 
+7fe258072000-7fe258131000 r-xp 00000000 a14:3844c 144117304739766056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so
+7fe258131000-7fe258330000 ---p 000bf000 a14:3844c 144117304739766056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so
+7fe258330000-7fe258336000 rw-p 000be000 a14:3844c 144117304739766056     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so
+7fe258336000-7fe258338000 rw-p 00000000 00:00 0 
+7fe258338000-7fe25834e000 r-xp 00000000 a14:3844c 144117304739759250     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgcc_s.so.1
+7fe25834e000-7fe25854d000 ---p 00016000 a14:3844c 144117304739759250     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgcc_s.so.1
+7fe25854d000-7fe25854e000 rw-p 00015000 a14:3844c 144117304739759250     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgcc_s.so.1
+7fe25854e000-7fe25854f000 rw-p 00074000 a14:3844c 144117304739759250     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libgcc_s.so.1
+7fe25854f000-7fe2586b8000 r-xp 00000000 a14:3844c 144117304739761869     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libiomp5.so
+7fe2586b8000-7fe2588b8000 ---p 00169000 a14:3844c 144117304739761869     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libiomp5.so
+7fe2588b8000-7fe2588c3000 rw-p 00169000 a14:3844c 144117304739761869     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libiomp5.so
+7fe2588c3000-7fe2588f2000 rw-p 00000000 00:00 0 
+7fe2588f2000-7fe2588f9000 rw-p 001c1000 a14:3844c 144117304739761869     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libiomp5.so
+7fe2588f9000-7fe25a124000 r-xp 00000000 a14:3844c 144117304739761874     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_core.so
+7fe25a124000-7fe25a324000 ---p 0182b000 a14:3844c 144117304739761874     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_core.so
+7fe25a324000-7fe25a32c000 r--p 0182b000 a14:3844c 144117304739761874     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_core.so
+7fe25a32c000-7fe25a34d000 rw-p 01833000 a14:3844c 144117304739761874     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_core.so
+7fe25a34d000-7fe25a3a0000 rw-p 00000000 00:00 0 
+7fe25a3a0000-7fe25a3f1000 rw-p 01a3d000 a14:3844c 144117304739761874     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_core.so
+7fe25a3f1000-7fe25ba20000 r-xp 00000000 a14:3844c 144117304739761878     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_thread.so
+7fe25ba20000-7fe25bc1f000 ---p 0162f000 a14:3844c 144117304739761878     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_thread.so
+7fe25bc1f000-7fe25bc22000 r--p 0162e000 a14:3844c 144117304739761878     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_thread.so
+7fe25bc22000-7fe25bdf9000 rw-p 01631000 a14:3844c 144117304739761878     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_thread.so
+7fe25bdf9000-7fe25bdff000 rw-p 00000000 00:00 0 
+7fe25bdff000-7fe25be56000 rw-p 01a8b000 a14:3844c 144117304739761878     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_thread.so
+7fe25be56000-7fe25c62c000 r-xp 00000000 a14:3844c 144117304739761877     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_lp64.so
+7fe25c62c000-7fe25c82c000 ---p 007d6000 a14:3844c 144117304739761877     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_lp64.so
+7fe25c82c000-7fe25c82d000 r--p 007d6000 a14:3844c 144117304739761877     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_lp64.so
+7fe25c82d000-7fe25c83e000 rw-p 007d7000 a14:3844c 144117304739761877     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_lp64.so
+7fe25c83e000-7fe25c843000 rw-p 00000000 00:00 0 
+7fe25c843000-7fe25c878000 rw-p 008ff000 a14:3844c 144117304739761877     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libmkl_intel_lp64.so
+7fe25c878000-7fe25ca23000 r-xp 00000000 a14:3844c 144117304739765970     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so
+7fe25ca23000-7fe25cc23000 ---p 001ab000 a14:3844c 144117304739765970     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so
+7fe25cc23000-7fe25cc32000 rw-p 001ab000 a14:3844c 144117304739765970     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so
+7fe25cc32000-7fe25cc44000 rw-p 00000000 00:00 0 
+7fe25cc44000-7fe25cc46000 r-xp 00000000 a14:3844c 144117312725728018     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/__check_build/_check_build.cpython-36m-x86_64-linux-gnu.so
+7fe25cc46000-7fe25ce46000 ---p 00002000 a14:3844c 144117312725728018     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/__check_build/_check_build.cpython-36m-x86_64-linux-gnu.so
+7fe25ce46000-7fe25ce47000 rw-p 00002000 a14:3844c 144117312725728018     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/site-packages/pyart/__check_build/_check_build.cpython-36m-x86_64-linux-gnu.so
+7fe25ce47000-7fe25ce67000 r-xp 00000000 a14:3844c 144117304739764497     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+7fe25ce67000-7fe25d066000 ---p 00020000 a14:3844c 144117304739764497     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+7fe25d066000-7fe25d06b000 rw-p 0001f000 a14:3844c 144117304739764497     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+7fe25d06b000-7fe25d075000 r-xp 00000000 a14:3844c 144117304739764529     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+7fe25d075000-7fe25d274000 ---p 0000a000 a14:3844c 144117304739764529     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+7fe25d274000-7fe25d277000 rw-p 00009000 a14:3844c 144117304739764529     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+7fe25d277000-7fe25d27c000 r-xp 00000000 a14:3844c 144117304739764543     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+7fe25d27c000-7fe25d47b000 ---p 00005000 a14:3844c 144117304739764543     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+7fe25d47b000-7fe25d47d000 rw-p 00004000 a14:3844c 144117304739764543     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+7fe25d47d000-7fe25d48c000 r-xp 00000000 a14:3844c 144117304739764520     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+7fe25d48c000-7fe25d68b000 ---p 0000f000 a14:3844c 144117304739764520     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+7fe25d68b000-7fe25d691000 rw-p 0000e000 a14:3844c 144117304739764520     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+7fe25d691000-7fe25d6a9000 r-xp 00000000 a14:3844c 144117304739764513     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+7fe25d6a9000-7fe25d8a8000 ---p 00018000 a14:3844c 144117304739764513     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+7fe25d8a8000-7fe25d8ac000 rw-p 00017000 a14:3844c 144117304739764513     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+7fe25d8ac000-7fe25d8bf000 r-xp 00000000 a14:3844c 144117304739764501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7fe25d8bf000-7fe25dabe000 ---p 00013000 a14:3844c 144117304739764501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7fe25dabe000-7fe25dac1000 rw-p 00012000 a14:3844c 144117304739764501     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+7fe25dac1000-7fe25daca000 r-xp 00000000 a14:3844c 144117304739764535     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+7fe25daca000-7fe25dcc9000 ---p 00009000 a14:3844c 144117304739764535     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+7fe25dcc9000-7fe25dccb000 rw-p 00008000 a14:3844c 144117304739764535     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+7fe25dccb000-7fe25dcd3000 r-xp 00000000 a14:3844c 144117304739764523     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+7fe25dcd3000-7fe25ded2000 ---p 00008000 a14:3844c 144117304739764523     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+7fe25ded2000-7fe25ded5000 rw-p 00007000 a14:3844c 144117304739764523     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+7fe25ded5000-7fe25df15000 rw-p 00000000 00:00 0 
+7fe25df51000-7fe25e111000 rw-p 00000000 00:00 0 
+7fe25e111000-7fe25e113000 r-xp 00000000 a14:3844c 144117304739764505     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+7fe25e113000-7fe25e313000 ---p 00002000 a14:3844c 144117304739764505     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+7fe25e313000-7fe25e315000 rw-p 00002000 a14:3844c 144117304739764505     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+7fe25e315000-7fe25e395000 rw-p 00000000 00:00 0 
+7fe25e395000-7fe25e51f000 r-xp 00000000 00:14 14363                      /lib64/libc-2.12.so
+7fe25e51f000-7fe25e71f000 ---p 0018a000 00:14 14363                      /lib64/libc-2.12.so
+7fe25e71f000-7fe25e723000 r--p 0018a000 00:14 14363                      /lib64/libc-2.12.so
+7fe25e723000-7fe25e725000 rw-p 0018e000 00:14 14363                      /lib64/libc-2.12.so
+7fe25e725000-7fe25e729000 rw-p 00000000 00:00 0 
+7fe25e729000-7fe25e7ac000 r-xp 00000000 00:14 14412                      /lib64/libm-2.12.so
+7fe25e7ac000-7fe25e9ab000 ---p 00083000 00:14 14412                      /lib64/libm-2.12.so
+7fe25e9ab000-7fe25e9ac000 r--p 00082000 00:14 14412                      /lib64/libm-2.12.so
+7fe25e9ac000-7fe25e9ad000 rw-p 00083000 00:14 14412                      /lib64/libm-2.12.so
+7fe25e9ad000-7fe25e9b4000 r-xp 00000000 00:14 14447                      /lib64/librt-2.12.so
+7fe25e9b4000-7fe25ebb3000 ---p 00007000 00:14 14447                      /lib64/librt-2.12.so
+7fe25ebb3000-7fe25ebb4000 r--p 00006000 00:14 14447                      /lib64/librt-2.12.so
+7fe25ebb4000-7fe25ebb5000 rw-p 00007000 00:14 14447                      /lib64/librt-2.12.so
+7fe25ebb5000-7fe25ebb7000 r-xp 00000000 00:14 14456                      /lib64/libutil-2.12.so
+7fe25ebb7000-7fe25edb6000 ---p 00002000 00:14 14456                      /lib64/libutil-2.12.so
+7fe25edb6000-7fe25edb7000 r--p 00001000 00:14 14456                      /lib64/libutil-2.12.so
+7fe25edb7000-7fe25edb8000 rw-p 00002000 00:14 14456                      /lib64/libutil-2.12.so
+7fe25edb8000-7fe25edba000 r-xp 00000000 00:14 14376                      /lib64/libdl-2.12.so
+7fe25edba000-7fe25efba000 ---p 00002000 00:14 14376                      /lib64/libdl-2.12.so
+7fe25efba000-7fe25efbb000 r--p 00002000 00:14 14376                      /lib64/libdl-2.12.so
+7fe25efbb000-7fe25efbc000 rw-p 00003000 00:14 14376                      /lib64/libdl-2.12.so
+7fe25efbc000-7fe25efd3000 r-xp 00000000 00:14 14443                      /lib64/libpthread-2.12.so
+7fe25efd3000-7fe25f1d3000 ---p 00017000 00:14 14443                      /lib64/libpthread-2.12.so
+7fe25f1d3000-7fe25f1d4000 r--p 00017000 00:14 14443                      /lib64/libpthread-2.12.so
+7fe25f1d4000-7fe25f1d5000 rw-p 00018000 00:14 14443                      /lib64/libpthread-2.12.so
+7fe25f1d5000-7fe25f1d9000 rw-p 00000000 00:00 0 
+7fe25f1d9000-7fe25f447000 r-xp 00000000 a14:3844c 144117304739763300     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpython3.6m.so.1.0
+7fe25f447000-7fe25f647000 ---p 0026e000 a14:3844c 144117304739763300     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpython3.6m.so.1.0
+7fe25f647000-7fe25f6b0000 rw-p 0026e000 a14:3844c 144117304739763300     /g/data2/rr5/vhl548/short/miniconda3/envs/steiner/lib/libpython3.6m.so.1.0
+7fe25f6b0000-7fe25f6e0000 rw-p 00000000 00:00 0 
+7fe25f6e0000-7fe25f700000 r-xp 00000000 00:14 14350                      /lib64/ld-2.12.so
+7fe25f73b000-7fe25f77b000 rw-p 00000000 00:00 0 
+7fe25f7a0000-7fe25f8e5000 rw-p 00000000 00:00 0 
+7fe25f8f8000-7fe25f8f9000 rw-p 00000000 00:00 0 
+7fe25f8f9000-7fe25f8fa000 rw-s 00000000 00:17 7701389                    /dev/shm/sem.4VFaHz (deleted)
+7fe25f8fa000-7fe25f8fb000 rw-s 00000000 00:17 7701388                    /dev/shm/sem.W7iBje (deleted)
+7fe25f8fb000-7fe25f8fc000 rw-s 00000000 00:17 7701386                    /dev/shm/sem.x7P2VS (deleted)
+7fe25f8fc000-7fe25f8fd000 rw-s 00000000 00:17 7701385                    /dev/shm/sem.o6fvyx (deleted)
+7fe25f8fd000-7fe25f8fe000 rwxp 00000000 00:00 0 
+7fe25f8fe000-7fe25f8ff000 rw-p 00000000 00:00 0 
+7fe25f8ff000-7fe25f900000 r--p 0001f000 00:14 14350                      /lib64/ld-2.12.so
+7fe25f900000-7fe25f901000 rw-p 00020000 00:14 14350                      /lib64/ld-2.12.so
+7fe25f901000-7fe25f902000 rw-p 00000000 00:00 0 
+7ffd00b08000-7ffd00b2a000 rw-p 00000000 00:00 0                          [stack]
+7ffd00b96000-7ffd00b98000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #009: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #009: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1277 in H5O_chunk_deserialize(): incorrect metadata checksum for object header chunk
+    major: Object header
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5P.c line 1476 in H5Pclose(): not a property list
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5P.c line 1476 in H5Pclose(): not a property list
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #009: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5Dio.c line 173 in H5Dread(): can't read data
+    major: Dataset
+    minor: Read failed
+  #001: H5Dio.c line 554 in H5D__read(): can't read data
+    major: Dataset
+    minor: Read failed
+  #002: H5Dchunk.c line 1875 in H5D__chunk_read(): unable to read raw data chunk
+    major: Low-level I/O
+    minor: Read failed
+  #003: H5Dchunk.c line 2905 in H5D__chunk_lock(): data pipeline read failed
+    major: Data filters
+    minor: Filter operation failed
+  #004: H5Z.c line 1372 in H5Z_pipeline(): filter returned failure during read
+    major: Data filters
+    minor: Read failed
+  #005: H5Zdeflate.c line 125 in H5Z_filter_deflate(): inflate() failed
+    major: Data filters
+    minor: Unable to initialize object
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #009: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.18) thread 140610242483968:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1722 in H5O_protect(): unable to load object header chunk
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 724 in H5O_cache_chk_load(): can't deserialize object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1092 in H5O_chunk_deserialize(): wrong object header chunk signature
+    major: Object header
+    minor: Unable to load metadata into cache
+=>> PBS: job killed: walltime 3648 exceeded limit 3600

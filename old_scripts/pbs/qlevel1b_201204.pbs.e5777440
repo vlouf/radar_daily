@@ -1,0 +1,437 @@
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/pyart/config.py:22: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:130: DeprecationWarning: invalid escape sequence \D
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/appdirs.py:235: DeprecationWarning: invalid escape sequence \P
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:144: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:828: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2652: DeprecationWarning: invalid escape sequence \d
+/g/data2/rr5/vhl548/short/miniconda3/envs/radar/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg/pkg_resources/_vendor/pyparsing.py:2830: DeprecationWarning: invalid escape sequence \g
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5A.c line 1260 in H5Aiterate2(): error iterating over attributes
+    major: Attribute
+    minor: Iteration failed
+  #001: H5Oattribute.c line 1394 in H5O_attr_iterate(): error iterating over attributes
+    major: Attribute
+    minor: Iteration failed
+  #002: H5Oattribute.c line 1331 in H5O_attr_iterate_real(): error iterating over attributes
+    major: Attribute
+    minor: Iteration failed
+  #003: H5Adense.c line 1245 in H5A_dense_iterate(): error building table of attributes
+    major: Attribute
+    minor: Can't get value
+  #004: H5Aint.c line 1458 in H5A_dense_build_table(): error building attribute table
+    major: Attribute
+    minor: Unable to initialize object
+  #005: H5Adense.c line 1235 in H5A_dense_iterate(): attribute iteration failed
+    major: Attribute
+    minor: Iteration failed
+  #006: H5B2.c line 389 in H5B2_iterate(): node iteration failed
+    major: B-Tree node
+    minor: Unable to list node
+  #007: H5B2int.c line 2059 in H5B2_iterate_node(): unable to protect B-tree leaf node
+    major: B-Tree node
+    minor: Unable to protect metadata
+  #008: H5B2int.c line 1870 in H5B2_protect_leaf(): unable to protect B-tree leaf node
+    major: B-Tree node
+    minor: Unable to protect metadata
+  #009: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #010: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #011: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5B2cache.c line 875 in H5B2__cache_leaf_load(): wrong B-tree leaf node signature
+    major: B-Tree node
+    minor: Unable to load metadata into cache
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #009: H5Ocache.c line 1151 in H5O_chunk_deserialize(): corrupt object header
+    major: Object header
+    minor: Unable to initialize object
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1151 in H5O_chunk_deserialize(): corrupt object header
+    major: Object header
+    minor: Unable to initialize object
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 335 in H5O_load(): can't deserialize first object header chunk
+    major: Object header
+    minor: Unable to initialize object
+  #014: H5Ocache.c line 1151 in H5O_chunk_deserialize(): corrupt object header
+    major: Object header
+    minor: Unable to initialize object
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #001: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #002: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #003: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #004: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #005: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #006: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #007: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #008: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
+HDF5-DIAG: Error detected in HDF5 (1.8.17) thread 140223261624064:
+  #000: H5L.c line 1183 in H5Literate(): link iteration failed
+    major: Symbol table
+    minor: Iteration failed
+  #001: H5Gint.c line 844 in H5G_iterate(): error iterating over links
+    major: Symbol table
+    minor: Iteration failed
+  #002: H5Gobj.c line 693 in H5G__obj_iterate(): can't iterate over dense links
+    major: Symbol table
+    minor: Iteration failed
+  #003: H5Gdense.c line 1073 in H5G__dense_iterate(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #004: H5Glink.c line 482 in H5G__link_iterate_table(): iteration operator failed
+    major: Symbol table
+    minor: Can't move to next iterator location
+  #005: H5O.c line 246 in H5Oopen(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #006: H5O.c line 1363 in H5O_open_name(): unable to open object
+    major: Symbol table
+    minor: Can't open object
+  #007: H5O.c line 1399 in H5O_open_by_loc(): unable to determine object class
+    major: Object header
+    minor: Can't get value
+  #008: H5O.c line 2371 in H5O_obj_class(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #009: H5O.c line 1685 in H5O_protect(): unable to load object header
+    major: Object header
+    minor: Unable to protect metadata
+  #010: H5AC.c line 1262 in H5AC_protect(): H5C_protect() failed.
+    major: Object cache
+    minor: Unable to protect metadata
+  #011: H5C.c line 3574 in H5C_protect(): can't load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #012: H5C.c line 7954 in H5C_load_entry(): unable to load entry
+    major: Object cache
+    minor: Unable to load metadata into cache
+  #013: H5Ocache.c line 275 in H5O_load(): bad object header version number
+    major: Object header
+    minor: Wrong version number
