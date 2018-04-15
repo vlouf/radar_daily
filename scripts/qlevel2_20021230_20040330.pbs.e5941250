@@ -1,4 +1,0 @@
-/short/kl02/vhl548/miniconda3/envs/radar/lib/python3.6/site-packages/pyart/config.py:22: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
-  import imp
-/short/kl02/vhl548/miniconda3/envs/radar/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-  from ._conv import register_converters as _register_converters
