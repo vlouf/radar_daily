@@ -30,58 +30,78 @@ from scipy import ndimage
 #     return cld_th
 
 
-@jit(nopython=True)
-def _echo_top_height(x, y, z, refl, stein, altitude_work, threshold, tolerance):
-    kgood = np.where(z == altitude_work)[0][0]
+def _echo_top_height(x, y, altitude, reflectivity, steiner, altitude_work, threshold, tolerance):
+    reflectivity = reflectivity.copy()
+    cld_th = np.zeros_like(steiner)
+    posx, posy = np.where(steiner == 2)
+    
+    try:
+        reflectivity.filled(np.NaN)
+    except AttributeError:
+        pass
+    
+    reflectivity[reflectivity < threshold - tolerance] = np.NaN
 
-    nx = len(x)
-    ny = len(y)
-    nz = len(z)
+    for i, j in zip(posx, posy):
+        refl_column = reflectivity[:, i, j]
+        k = np.argmin(np.abs(refl_column - threshold))
+        cld_th[i, j] = altitude[k]
 
-    zerodBZ_eth = np.zeros((nx, ny))
+    return cld_th
 
-    for j in range(ny):
-        for i in range(nx):
-            if stein[i, j] != 2:
-                continue
 
-            ipass = 0
-            ktop = kgood
-            for k in range(kgood, nz):
-                if (ipass == 0) and (refl[k - 1, i, j] >= threshold) and (refl[k, i, j] <= threshold):
-                    ipass = 1
-                    ktop = k
-                    break
-
-            for k in range(kgood, nz):
-                if (ipass == 0) and (refl[k, i, j] < threshold + tolerance):
-                    ipass = 1
-                    ktop = k
-                    zdiff = threshold + tolerance
-
-                    if ktop < nz - 1:
-                        if np.abs(refl[ktop + 1, i, j]) < zdiff:
-                            zdiff = np.abs(refl[ktop + 1, i, j])
-                            ktop += 1
-
-                    if ktop < nz - 2:
-                        if np.abs(refl[ktop + 2, i, j]) < zdiff:
-                            zdiff = np.abs(refl[ktop + 2, i, j])
-                            ktop += 2
-
-                    if ktop < nz - 3:
-                        if np.abs(refl[ktop + 3, i, j]) < zdiff:
-                            zdiff = np.abs(refl[ktop + 3, i, j])
-                            ktop += 3
-
-                    if ktop < nz - 4:
-                        if np.abs(refl[ktop + 4, i, j]) < zdiff:
-                            zdiff = np.abs(refl[ktop + 4, i, j])
-                            ktop += 4
-
-            zerodBZ_eth[i, j] = z[ktop]
-
-    return zerodBZ_eth
+##@jit(nopython=True)
+##def _echo_top_height(x, y, z, refl, stein, altitude_work, threshold, tolerance):
+##    kgood = np.where(z == altitude_work)[0][0]
+##
+##    nx = len(x)
+##    ny = len(y)
+##    nz = len(z)
+##
+##    zerodBZ_eth = np.zeros((nx, ny))
+##
+##    for j in range(ny):
+##        for i in range(nx):
+##            if stein[i, j] != 2:
+##                continue
+##
+##            ipass = 0
+##            ktop = kgood
+##            for k in range(kgood, nz):
+##                if (ipass == 0) and (refl[k - 1, i, j] >= threshold) and (refl[k, i, j] <= threshold):
+##                    ipass = 1
+##                    ktop = k
+##                    break
+##
+##            for k in range(kgood, nz):
+##                if (ipass == 0) and (refl[k, i, j] < threshold + tolerance):
+##                    ipass = 1
+##                    ktop = k
+##                    zdiff = threshold + tolerance
+##
+##                    if ktop < nz - 1:
+##                        if np.abs(refl[ktop + 1, i, j]) < zdiff:
+##                            zdiff = np.abs(refl[ktop + 1, i, j])
+##                            ktop += 1
+##
+##                    if ktop < nz - 2:
+##                        if np.abs(refl[ktop + 2, i, j]) < zdiff:
+##                            zdiff = np.abs(refl[ktop + 2, i, j])
+##                            ktop += 2
+##
+##                    if ktop < nz - 3:
+##                        if np.abs(refl[ktop + 3, i, j]) < zdiff:
+##                            zdiff = np.abs(refl[ktop + 3, i, j])
+##                            ktop += 3
+##
+##                    if ktop < nz - 4:
+##                        if np.abs(refl[ktop + 4, i, j]) < zdiff:
+##                            zdiff = np.abs(refl[ktop + 4, i, j])
+##                            ktop += 4
+##
+##            zerodBZ_eth[i, j] = z[ktop]
+##
+##    return zerodBZ_eth
 
 
 def echo_top_height(x, y, z, refl, steiner, altitude_work=2500, threshold=17, tolerance=5):

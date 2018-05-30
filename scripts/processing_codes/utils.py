@@ -147,34 +147,3 @@ def get_radar_meta(radar):
     """
     mymeta = radar.metadata
     return mymeta
-
-
-def get_moment(radar, moment_name, fillvalue=-9999):
-    """
-    Parameters:
-    ===========
-        input_file: str
-            Input file name.
-        moment_name: str
-            Radar field name.
-
-    Returns:
-    ========
-        moment_data: ndarray[DIM_LEN, DIM_LEN]
-            Moment data fill value is FILLVALUE.
-    """
-    mymoment = radar.fields[moment_name]
-
-    z = radar.z['data']
-    moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue))
-
-    #  Check if maximum range is 70 km or 145 km.
-    if np.max(radar.x['data']) > 135000:
-        x = radar.x['data']
-        y = radar.y['data']
-
-        # NaNing data outside of radar horizon.
-        [X, Y] = np.meshgrid(x, y)
-        moment_data[(X**2 + Y**2) > 145000**2] = np.NaN
-
-    return moment_data

@@ -135,7 +135,9 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
     global_metadata['acknowledgement'] = "This work has been supported by the U.S. Department " + \
                                          "of Energy Atmospheric Systems Research Program through " + \
                                          "the grant DE-SC0014063. Data may be freely distributed."
-    global_metadata['product_version'] = "2018.03"
+    
+    global_metadata['product_version'] = f"{datetime.date.today().year}.{datetime.date.today().month:02}"
+    
     global_metadata['references'] = "Contact V. Louf <valentin.louf@bom.gov.au>"
     global_metadata['creator_name'] = "Valentin Louf"
     global_metadata['creator_email'] = "valentin.louf@bom.gov.au"

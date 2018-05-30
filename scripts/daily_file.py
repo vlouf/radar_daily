@@ -58,6 +58,40 @@ def chunks(l, n):
     """
     for i in range(0, len(l), n):
         yield l[i:i + n]
+        
+
+def get_moment(radar, moment_name, fillvalue=-9999):
+    """
+    Parameters:
+    ===========
+        input_file: str
+            Input file name.
+        moment_name: str
+            Radar field name.
+
+    Returns:
+    ========
+        moment_data: ndarray[DIM_LEN, DIM_LEN]
+            Moment data fill value is FILLVALUE.
+    """
+    mymoment = radar.fields[moment_name]
+
+    z = radar.z['data']
+    if 'reflectivity' in moment_name:
+        moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue))
+    else:
+        moment_data = np.squeeze(mymoment['data'][0, :, :].filled(fillvalue))
+
+    #  Check if maximum range is 70 km or 145 km.
+    if np.max(radar.x['data']) > 135000:
+        x = radar.x['data']
+        y = radar.y['data']
+
+        # NaNing data outside of radar horizon.
+        [X, Y] = np.meshgrid(x, y)
+        moment_data[(X**2 + Y**2) > 140000**2] = np.NaN
+
+    return moment_data
 
 
 def processing_line(input_dir, output_dir, year, month, day):
@@ -77,13 +111,11 @@ def processing_line(input_dir, output_dir, year, month, day):
     # Moments to extract.
     goodkeys = ['corrected_differential_reflectivity',
                 'radar_echo_classification', 'D0',
-                'NW', 'reflectivity', 'region_dealias_velocity',
-                'radar_estimated_rain_rate', "giangrande_differential_phase",
-                "giangrande_specific_differential_phase", "cross_correlation_ratio"]
+                'NW', 'reflectivity', 'radar_estimated_rain_rate']
 
     # New moments to compute
-    newkeys = ["steiner_echo_classification", "thurai_echo_classification", "0dB_echo_top_height",
-               "10dB_echo_top_height", "17dB_echo_top_height", "40dB_echo_top_height", "cloud_top_height"]
+    newkeys = ["steiner_echo_classification", "thurai_echo_classification"]  #, "0dB_echo_top_height",
+               #"10dB_echo_top_height", "17dB_echo_top_height", "40dB_echo_top_height", "cloud_top_height"]
 
     # Creating a 24h time array with a 10 min resolution.
     stt = datetime.datetime(year, month, day, 0, 0, 0)  # Start time.
@@ -288,7 +320,7 @@ def main():
 
 if __name__ == "__main__":
     # Global variables that are to be set through argument parser in the future.
-    RES = 1000
+    RES = 2500
 
     # Parse arguments
     parser_description = "Leveling treatment of CPOL data from level 1a to level 1b."
@@ -296,9 +328,9 @@ if __name__ == "__main__":
     parser.add_argument('-j', '--cpu', dest='ncpu', default=32, type=int, help='Number of process')
     parser.add_argument('-s', '--start-date', dest='start_date', default=None, type=str, help='Starting date.')
     parser.add_argument('-e', '--end-date', dest='end_date', default=None, type=str, help='Ending date.')
-    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/CPOL_level_1b/",
+    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/NEW_CPOL_level_1b/",
                         type=str, help='Input directory.')
-    parser.add_argument('-o', '--output', dest='outdir', default="/g/data2/rr5/vhl548/CPOL_level_2/",
+    parser.add_argument('-o', '--output', dest='outdir', default="/g/data2/rr5/vhl548/NEW_CPOL_level_2/",
                         type=str, help='Output directory.')
 
     args = parser.parse_args()
