@@ -88,13 +88,13 @@ def get_moment(radar, moment_name, fillvalue=-9999):
         moment_data = moment_data.astype(np.float32)
 
     #  Check if maximum range is 70 km or 145 km.
-    if np.max(radar.x['data']) > 135000:
-        x = radar.x['data']
-        y = radar.y['data']
+    # if np.max(radar.x['data']) > 135000:
+    #     x = radar.x['data']
+    #     y = radar.y['data']
 
-        # NaNing data outside of radar horizon.
-        [X, Y] = np.meshgrid(x, y)
-        moment_data[(X**2 + Y**2) > 140000**2] = np.NaN
+    #     # NaNing data outside of radar horizon.
+    #     [X, Y] = np.meshgrid(x, y)
+    #     moment_data[(X**2 + Y**2) > 140000**2] = np.NaN
 
     return moment_data
 
