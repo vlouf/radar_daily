@@ -109,9 +109,7 @@ def processing_line(input_dir, output_dir, year, month, day):
     """
     file_exist = np.zeros((144,), dtype=int)
     # Moments to extract.
-    goodkeys = ['corrected_differential_reflectivity',
-                'radar_echo_classification', 'D0',
-                'NW', 'reflectivity', 'radar_estimated_rain_rate']
+    goodkeys = ['corrected_differential_reflectivity', 'radar_echo_classification', 'D0', 'NW', 'reflectivity', 'radar_estimated_rain_rate']
 
     # New moments to compute
     newkeys = ["steiner_echo_classification", "thurai_echo_classification"]  #, "0dB_echo_top_height",
@@ -339,6 +337,12 @@ if __name__ == "__main__":
     END_DATE = args.end_date
     OUTDIR = args.outdir
     INPUT_DIR = args.indir
+    
+    if not os.path.exists(OUTDIR):
+        try:
+            os.mkdir(OUTDIR)
+        except FileExistsError:
+            pass
 
     if not (START_DATE and END_DATE):
         parser.error("Starting and ending date required.")

@@ -36,19 +36,17 @@ def generate_outfilename(output_dir, mykey, stt):
     year = stt.year
     # Check if output directory exists -- Moment name.
     output_dir_ncfile = os.path.join(output_dir, key_name.upper())
-    if not os.path.isdir(output_dir_ncfile):
-        try:
-            os.mkdir(output_dir_ncfile)
-        except FileExistsError:
-            pass
+    try:
+        os.mkdir(output_dir_ncfile)
+    except FileExistsError:
+        pass
 
     # Check if output directory exists -- Year.
     output_dir_ncfile = os.path.join(output_dir_ncfile, str(year))
-    if not os.path.isdir(output_dir_ncfile):
-        try:
-            os.mkdir(output_dir_ncfile)
-        except FileExistsError:
-            pass
+    try:
+        os.mkdir(output_dir_ncfile)
+    except FileExistsError:
+        pass
 
     # Generate output file name and check if it already exists.
     outfilename = "CPOL_" + key_name.upper() + "_" + stt.strftime("%Y%m%d") + "_level2.nc"
