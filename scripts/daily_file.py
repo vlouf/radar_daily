@@ -245,7 +245,7 @@ def processing_line(input_dir, output_dir, year, month, day):
     # Writing originals moments.
     for mykey, mymoment in MOMENT.items():
         # Masking out the outer rim.
-        mymoment['data'][R >= 140000] = FILLVALUE
+        mymoment['data'][:, R >= 140000] = FILLVALUE
         # generating output filename.
         outfilename = generate_outfilename(output_dir, mykey, stt)
         if os.path.isfile(outfilename):
