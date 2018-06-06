@@ -87,14 +87,18 @@ def get_flist(input_dir, drange, grid_resolution="2500"):
         print("Input directory does not exist for given date {}.".format(myrange.strftime("%Y%m%d_%H%M")))
         return None
 
-    flist = [None] * len(drange)
+    flist = sorted(glob.glob(os.path.join(indir, '*.nc')))
+    if len(flist) == 144:
+        return flist
+
+    flist = [None] * 144
     for file_number in range(len(drange)):
         myrange = drange[file_number]
         proto_file = "CPOL_{}_GRIDS_{}m.nc".format(myrange.strftime("%Y%m%d_%H%M"), grid_resolution)
         infile = os.path.join(indir, proto_file)
 
         if not os.path.isfile(infile):
-            print(crayons.red("File {} does not exists.".format(infile)))
+            # print(crayons.red("File {} does not exists.".format(infile)))
             flist[file_number] = None
             continue
 

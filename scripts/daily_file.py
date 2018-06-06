@@ -58,7 +58,7 @@ def chunks(l, n):
     """
     for i in range(0, len(l), n):
         yield l[i:i + n]
-        
+
 
 def get_moment(radar, moment_name, fillvalue=-9999):
     """
@@ -81,6 +81,11 @@ def get_moment(radar, moment_name, fillvalue=-9999):
         moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue))
     else:
         moment_data = np.squeeze(mymoment['data'][0, :, :].filled(fillvalue))
+
+    if moment_name == 'radar_echo_classification':
+        moment_data = moment_data.astype(np.int32)
+    else:
+        moment_data = moment_data.astype(np.float32)
 
     #  Check if maximum range is 70 km or 145 km.
     if np.max(radar.x['data']) > 135000:
@@ -109,11 +114,12 @@ def processing_line(input_dir, output_dir, year, month, day):
     """
     file_exist = np.zeros((144,), dtype=int)
     # Moments to extract.
-    goodkeys = ['corrected_differential_reflectivity', 'radar_echo_classification', 'D0', 'NW', 'reflectivity', 'radar_estimated_rain_rate']
+    goodkeys = ['corrected_differential_reflectivity', 'radar_echo_classification',
+                'D0', 'NW', 'reflectivity', 'radar_estimated_rain_rate']
 
     # New moments to compute
-    newkeys = ["steiner_echo_classification", "thurai_echo_classification"]  #, "0dB_echo_top_height",
-               #"10dB_echo_top_height", "17dB_echo_top_height", "40dB_echo_top_height", "cloud_top_height"]
+    newkeys = ["steiner_echo_classification"]  # "thurai_echo_classification"]  #, "0dB_echo_top_height",
+    # "10dB_echo_top_height", "17dB_echo_top_height", "40dB_echo_top_height", "cloud_top_height"]
 
     # Creating a 24h time array with a 10 min resolution.
     stt = datetime.datetime(year, month, day, 0, 0, 0)  # Start time.
@@ -130,9 +136,15 @@ def processing_line(input_dir, output_dir, year, month, day):
     # Initialize empty storage
     MOMENT = dict()
     for mykey in goodkeys:
-        MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN)) + np.NaN}
+        if mykey == 'radar_echo_classification':
+            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.int32)}
+        else:
+            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.float32)}
     for mykey in newkeys:
-        MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN)) + np.NaN}
+        if mykey == 'steiner_echo_classification':
+            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.int32)}
+        else:
+            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.float32)}
 
     # Get file list of radars data.
     flist = get_flist(input_dir, drange, RES)
@@ -155,11 +167,6 @@ def processing_line(input_dir, output_dir, year, month, day):
         # Parsing existing keys.
         for mykey in goodkeys:
             mymoment = get_moment(radar, mykey, fillvalue=FILLVALUE)
-            if mykey in ['D0', 'NW', 'radar_estimated_rain_rate']:
-                mymoment[mymoment == FILLVALUE] = 0
-                mymoment = np.ma.masked_where(np.isnan(mymoment), mymoment)
-            else:
-                mymoment = np.ma.masked_where(np.isnan(mymoment) | (mymoment == FILLVALUE), mymoment)
 
             MOMENT[mykey]['data'][cnt, :, :] = mymoment
             # Include metadata
@@ -231,9 +238,14 @@ def processing_line(input_dir, output_dir, year, month, day):
     main_meta = get_radar_meta(radar)
     # Extract latitude/longitude at level 5 (2.5 km of altitude)
     longitude, latitude = radar.get_point_longitude_latitude(level=5)
+    # Preparing to mask out the outer ring
+    X, Y = np.meshgrid(x, y)
+    R = np.sqrt(X ** 2 + Y ** 2)
 
     # Writing originals moments.
     for mykey, mymoment in MOMENT.items():
+        # Masking out the outer rim.
+        mymoment['data'][R >= 140000] = FILLVALUE
         # generating output filename.
         outfilename = generate_outfilename(output_dir, mykey, stt)
         if os.path.isfile(outfilename):
@@ -337,7 +349,7 @@ if __name__ == "__main__":
     END_DATE = args.end_date
     OUTDIR = args.outdir
     INPUT_DIR = args.indir
-    
+
     if not os.path.exists(OUTDIR):
         try:
             os.mkdir(OUTDIR)

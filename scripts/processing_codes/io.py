@@ -64,11 +64,11 @@ def get_key_metadata():
                                       'units': 'm'}
 
     cfkeys['steiner_echo_classification'] = {'standard_name': 'steiner_echo_classification',
-                                             'long_name': 'Convetive stratiform echo classification using Steiner algorithm',
+                                             'long_name': 'Convetive stratiform echo classification',
                                              'units': ''}
 
     cfkeys['thurai_echo_classification'] = {'standard_name': 'thurai_echo_classification',
-                                            'long_name': 'Convetive stratiform echo classification using Thurai algorithm',
+                                            'long_name': 'Convetive stratiform echo classification',
                                             'units': ''}
 
     return cfkeys
@@ -135,9 +135,9 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
     global_metadata['acknowledgement'] = "This work has been supported by the U.S. Department " + \
                                          "of Energy Atmospheric Systems Research Program through " + \
                                          "the grant DE-SC0014063. Data may be freely distributed."
-    
+
     global_metadata['product_version'] = f"{datetime.date.today().year}.{datetime.date.today().month:02}"
-    
+
     global_metadata['references'] = "Contact V. Louf <valentin.louf@bom.gov.au>"
     global_metadata['creator_name'] = "Valentin Louf"
     global_metadata['creator_email'] = "valentin.louf@bom.gov.au"
@@ -185,27 +185,25 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
 
     DIM_LEN = len(xdim)
     # Write netCDF4 file.
-    with netCDF4.Dataset(outfilename, "w", format="NETCDF4") as rootgrp:
+    with netCDF4.Dataset(outfilename, "w", format="NETCDF4") as ncid:
         # Create dimension
-        rootgrp.createDimension("x", DIM_LEN)
-        rootgrp.createDimension("y", DIM_LEN)
-        rootgrp.createDimension('time', 144)
+        ncid.createDimension("x", DIM_LEN)
+        ncid.createDimension("y", DIM_LEN)
+        ncid.createDimension('time', 144)
 
         # Create variables.
-        if moment['data'].dtype == np.dtype('int64'):
-            mymoment = rootgrp.createVariable(moment_name, 'i4', ("time", "x", "y"), zlib=True, fill_value=-9999)
-        else:
-            mymoment = rootgrp.createVariable(moment_name, 'f8', ("time", "x", "y"), zlib=True, fill_value=-9999)
+        mymoment = ncid.createVariable(moment_name, moment['data'].dtype, ("time", "x", "y"),
+                                       zlib=True, fill_value=-9999)
 
         # Others variables.
-        nclat = rootgrp.createVariable('latitude', 'f8', ("x", "y"), zlib=True)
-        nclon = rootgrp.createVariable('longitude', 'f8', ("x", "y"), zlib=True)
-        nctime = rootgrp.createVariable('time', 'f8', 'time')
-        ncx = rootgrp.createVariable('x', 'i4', 'x')
-        mcy = rootgrp.createVariable('y', 'i4', 'y')
+        nclat = ncid.createVariable('latitude', latitude.dtype, ("x", "y"), zlib=True)
+        nclon = ncid.createVariable('longitude', longitude.dtype, ("x", "y"), zlib=True)
+        nctime = ncid.createVariable('time', time['data'].dtype, 'time')
+        ncx = ncid.createVariable('x', xdim.dtype, 'x')
+        mcy = ncid.createVariable('y', ydim.dtype, 'y')
 
         # Get data.
-        ncquality = rootgrp.createVariable('qc_exist', 'i4', 'time')
+        ncquality = ncid.createVariable('qc_exist', 'i4', 'time')
         ncquality[:] = file_exist
         ncquality.units = ""
         ncquality.setncattr('standard_name', 'quality_check_measurement_exist')
@@ -250,6 +248,6 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
 
         # # Set main metadata
         for mykey in global_metadata.keys():
-            rootgrp.setncattr(mykey, global_metadata[mykey])
+            ncid.setncattr(mykey, global_metadata[mykey])
 
     return None
