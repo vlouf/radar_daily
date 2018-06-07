@@ -15,7 +15,6 @@ CPOL Level 2 main production line.
     main
 """
 # Python Standard Library
-import gc
 import os
 import re
 import sys
@@ -78,23 +77,16 @@ def get_moment(radar, moment_name, fillvalue=-9999):
 
     z = radar.z['data']
     if 'reflectivity' in moment_name:
-        moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue))
+        moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue)).copy()
+    elif moment_name == 'radar_estimated_rain_rate':
+        moment_data = np.squeeze(mymoment['data'][0, :, :].filled(0)).copy()
     else:
-        moment_data = np.squeeze(mymoment['data'][0, :, :].filled(fillvalue))
+        moment_data = np.squeeze(mymoment['data'][0, :, :].filled(fillvalue)).copy()
 
     if moment_name == 'radar_echo_classification':
         moment_data = moment_data.astype(np.int32)
     else:
         moment_data = moment_data.astype(np.float32)
-
-    #  Check if maximum range is 70 km or 145 km.
-    # if np.max(radar.x['data']) > 135000:
-    #     x = radar.x['data']
-    #     y = radar.y['data']
-
-    #     # NaNing data outside of radar horizon.
-    #     [X, Y] = np.meshgrid(x, y)
-    #     moment_data[(X**2 + Y**2) > 140000**2] = np.NaN
 
     return moment_data
 
@@ -299,9 +291,6 @@ def multiproc_buffer(input_dir, output_dir, dtime):
         return None
     else:
         signal.alarm(0)
-
-    # Collect memory garbage.
-    gc.collect()
 
     return None
 
