@@ -79,14 +79,9 @@ def get_moment(radar, moment_name, fillvalue=-9999):
     if 'reflectivity' in moment_name:
         moment_data = np.squeeze(mymoment['data'][z == 2500, :, :].filled(fillvalue)).copy()
     elif moment_name == 'radar_estimated_rain_rate':
-        moment_data = np.squeeze(mymoment['data'][0, :, :].filled(0)).copy()
+        moment_data = np.squeeze(mymoment['data'][1, :, :].filled(0)).copy()
     else:
         moment_data = np.squeeze(mymoment['data'][0, :, :].filled(fillvalue)).copy()
-
-    if moment_name == 'radar_echo_classification':
-        moment_data = moment_data.astype(np.int32)
-    else:
-        moment_data = moment_data.astype(np.float32)
 
     return moment_data
 
@@ -128,15 +123,9 @@ def processing_line(input_dir, output_dir, year, month, day):
     # Initialize empty storage
     MOMENT = dict()
     for mykey in goodkeys:
-        if mykey == 'radar_echo_classification':
-            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.int32)}
-        else:
-            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.float32)}
+        MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN))}
     for mykey in newkeys:
-        if mykey == 'steiner_echo_classification':
-            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.int32)}
-        else:
-            MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN), dtype=np.float32)}
+        MOMENT[mykey] = {"data": np.zeros((144, DIM_LEN, DIM_LEN))}
 
     # Get file list of radars data.
     flist = get_flist(input_dir, drange, RES)
