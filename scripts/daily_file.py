@@ -101,8 +101,9 @@ def processing_line(input_dir, output_dir, year, month, day):
     """
     file_exist = np.zeros((144,), dtype=int)
     # Moments to extract.
-    goodkeys = ['corrected_differential_reflectivity', 'radar_echo_classification',
-                'D0', 'NW', 'reflectivity', 'radar_estimated_rain_rate']
+#     goodkeys = ['corrected_differential_reflectivity', 'radar_echo_classification',
+#                 'D0', 'NW', 'reflectivity', 'radar_estimated_rain_rate']
+    goodkeys = []
 
     # New moments to compute
     newkeys = ["steiner_echo_classification"]  # "thurai_echo_classification"]  #, "0dB_echo_top_height",
@@ -308,7 +309,7 @@ def main():
 
 if __name__ == "__main__":
     # Global variables that are to be set through argument parser in the future.
-    RES = 2500
+    RES = 1000
 
     # Parse arguments
     parser_description = "Leveling treatment of CPOL data from level 1a to level 1b."
@@ -316,7 +317,7 @@ if __name__ == "__main__":
     parser.add_argument('-j', '--cpu', dest='ncpu', default=32, type=int, help='Number of process')
     parser.add_argument('-s', '--start-date', dest='start_date', default=None, type=str, help='Starting date.')
     parser.add_argument('-e', '--end-date', dest='end_date', default=None, type=str, help='Ending date.')
-    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/NEW_CPOL_level_1b/",
+    parser.add_argument('-i', '--indir', dest='indir', default="/g/data2/rr5/vhl548/CPOL_level_1b/",
                         type=str, help='Input directory.')
     parser.add_argument('-o', '--output', dest='outdir', default="/g/data2/rr5/vhl548/NEW_CPOL_level_2/",
                         type=str, help='Output directory.')

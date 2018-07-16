@@ -161,10 +161,10 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
     global_metadata['geospatial_lon_max'] = maxlon
     global_metadata['geospatial_lon_units'] = "degrees_east"
     global_metadata['geospatial_lon_resolution'] = latres
-    global_metadata['geospatial_vertical_min'] = 0
-    global_metadata['geospatial_vertical_max'] = 20000
-    global_metadata['geospatial_vertical_resolution'] = 500
-    global_metadata['geospatial_vertical_units'] = "meters"
+#     global_metadata['geospatial_vertical_min'] = 0
+#     global_metadata['geospatial_vertical_max'] = 20000
+#     global_metadata['geospatial_vertical_resolution'] = 500
+#     global_metadata['geospatial_vertical_units'] = "meters"
     global_metadata['time_coverage_start'] = dtime[0].isoformat()
     global_metadata['time_coverage_end'] = dtime[-1].isoformat()
     global_metadata['time_coverage_resolution'] = "00:10:00"
@@ -184,30 +184,36 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
         pass
 
     DIM_LEN = len(xdim)
+    
+    if DIM_LEN == 117:
+        LAT = latitude[:, 58]
+        LON = longitude[58, :]
+    else:
+        LAT = latitude[:, 70]
+        LON = longitude[70, :]
     # Write netCDF4 file.
     with netCDF4.Dataset(outfilename, "w", format="NETCDF4") as ncid:
         # Create dimension
-        ncid.createDimension("x", DIM_LEN)
-        ncid.createDimension("y", DIM_LEN)
+        ncid.createDimension("longitude", DIM_LEN)
+        ncid.createDimension("latitude", DIM_LEN)
         ncid.createDimension('time', 144)
 
         # Create variables.
-        mymoment = ncid.createVariable(moment_name, moment['data'].dtype, ("time", "x", "y"),
-                                       zlib=True, fill_value=-9999)
+        mymoment = ncid.createVariable(moment_name, moment['data'].dtype, ("time", "latitude", "longitude"), zlib=True, fill_value=-9999)
 
         # Others variables.
-        nclat = ncid.createVariable('latitude', latitude.dtype, ("x", "y"), zlib=True)
-        nclon = ncid.createVariable('longitude', longitude.dtype, ("x", "y"), zlib=True)
+        nclon = ncid.createVariable('longitude', LON.dtype, ('longitude'))
+        nclat = ncid.createVariable('latitude', LAT.dtype, ('latitude'))
         nctime = ncid.createVariable('time', time['data'].dtype, 'time')
-        ncx = ncid.createVariable('x', xdim.dtype, 'x')
-        mcy = ncid.createVariable('y', ydim.dtype, 'y')
+#         ncx = ncid.createVariable('x', xdim.dtype, 'x')
+#         mcy = ncid.createVariable('y', ydim.dtype, 'y')
 
         # Get data.
-        ncquality = ncid.createVariable('qc_exist', 'i4', 'time')
+        ncquality = ncid.createVariable('isfile', 'i4', 'time')
         ncquality[:] = file_exist
         ncquality.units = ""
         ncquality.setncattr('standard_name', 'quality_check_measurement_exist')
-        ncquality.setncattr('description', '0: no measurement available at time step, 1: data exist.')
+        ncquality.setncattr('description', '0: no data, 1: data available at this time step')
         ncquality.setncattr('comment', 'In case of a slice, at a given timestep, full of FillValue,' +
                                        'this variable will tell you that this slice is empty because ' +
                                        'there was nothing to measure or if it is empty because the ' +
@@ -215,11 +221,14 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
 
         # Assign values.
         mymoment[:] = moment['data']
-        nclat[:] = latitude
-        nclon[:] = longitude
+        if moment_name == 'steiner_echo_classification':
+            mymoment.setncattr('valid_min', '0')
+            mymoment.setncattr('valid_max', '2')
+        nclat[:] = LAT
+        nclon[:] = LON
         nctime[:] = time['data']
-        ncx[:] = xdim
-        mcy[:] = ydim
+#         ncx[:] = xdim
+#         mcy[:] = ydim
 
         # Set units.
         try:
@@ -233,18 +242,18 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
             except KeyError:
                 continue
 
-        nclat.units = "degree_north"
-        nclon.units = "degree_east"
-        nclat.setncattr('standard_name', 'longitude')
-        nclon.setncattr('standard_name', 'latitude')
+        nclat.units = "degrees_north"
+        nclon.units = "degrees_east"
+        nclat.setncattr('standard_name', 'latitude')
+        nclon.setncattr('standard_name', 'longitude')
 
         nctime.units = time['units']  # Global variable.
         nctime.setncattr('standard_name', 'time')
 
-        ncx.units = "meters"
-        mcy.units = "meters"
-        ncx.setncattr('standard_name', 'easthward_distance')
-        mcy.setncattr('standard_name', 'northward_distance')
+#         ncx.units = "meters"
+#         mcy.units = "meters"
+#         ncx.setncattr('standard_name', 'easthward_distance')
+#         mcy.setncattr('standard_name', 'northward_distance')
 
         # # Set main metadata
         for mykey in global_metadata.keys():
