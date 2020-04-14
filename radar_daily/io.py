@@ -108,7 +108,10 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
     except KeyError:
         moment_name = mykey_name
 
-    dtime = netCDF4.num2date(time['data'], time['units'])
+    dtime = netCDF4.num2date(time['data'],
+                             time['units'],
+                             only_use_cftime_datetimes=False,
+                             only_use_python_datetimes=True)
     # Prepare CF compliant metadata
     minlon = longitude.min()
     maxlon = longitude.max()
@@ -184,7 +187,7 @@ def write_ncfile(outfilename, time, xdim, ydim, latitude, longitude, moment, myk
         pass
 
     DIM_LEN = len(xdim)
-    
+
     if DIM_LEN == 117:
         LAT = latitude[:, 58]
         LON = longitude[58, :]
