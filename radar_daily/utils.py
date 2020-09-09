@@ -30,7 +30,7 @@ def generate_outfilename(output_dir, mykey, stt):
     """
     cfkeys = get_key_metadata()
     try:
-        key_name = cfkeys[mykey]['standard_name']
+        key_name = cfkeys[mykey]["standard_name"]
     except KeyError:
         key_name = mykey
 
@@ -88,7 +88,7 @@ def get_flist(input_dir, drange, grid_resolution="2500"):
         print("Input directory does not exist for given date {}.".format(myrange.strftime("%Y%m%d_%H%M")))
         return None
 
-    flist = sorted(glob.glob(os.path.join(indir, '*.nc')))
+    flist = sorted(glob.glob(os.path.join(indir, "*.nc")))
     if len(flist) == 144:
         return flist
 
