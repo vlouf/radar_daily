@@ -2,7 +2,7 @@
 CPOL Level 2 main production line.
 
 @title: CPOL_LEVEL2
-@author: Valentin Louf <valentin.louf@monash.edu>
+@author: Valentin Louf <valentin.louf@bom.gov.au>
 @institution: Bureau of Meteorology
 @date: 15/09/2017
 @version: 0.4
